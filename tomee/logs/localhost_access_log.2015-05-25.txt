@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [25/May/2015:12:02:23 +0200] "GET /paws-and-claws/index.xhtml HTTP/1.1" 200 6017
+0:0:0:0:0:0:0:1 - - [25/May/2015:12:02:23 +0200] "GET /paws-and-claws/index.xhtml HTTP/1.1" 200 6017
+0:0:0:0:0:0:0:1 - - [25/May/2015:12:02:23 +0200] "GET /paws-and-claws/javax.faces.resource/common-style.css.xhtml;jsessionid=1A04A96FD7FA7A7CAFFE4C0448AAEFC1?ln=css HTTP/1.1" 200 325
+0:0:0:0:0:0:0:1 - - [25/May/2015:12:02:23 +0200] "GET /paws-and-claws/js/bootstrap.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/May/2015:12:02:23 +0200] "GET /paws-and-claws/logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/May/2015:12:02:23 +0200] "GET /paws-and-claws/template/common/navBarStyle.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/May/2015:12:02:23 +0200] "GET /paws-and-claws/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/May/2015:12:02:28 +0200] "GET /paws-and-claws/index.html HTTP/1.1" 404 1033

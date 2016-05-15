@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:02:20:56 +0200] "GET /aaa/index.xhtml HTTP/1.1" 200 2694
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:02:20:56 +0200] "GET /aaa/javax.faces.resource/jq/jquery.js.xhtml;jsessionid=22E9A3B22429403398B366DC18F0678E?ln=bsf HTTP/1.1" 200 96032
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:02:20:56 +0200] "GET /aaa/javax.faces.resource/css/navbar.css.xhtml;jsessionid=22E9A3B22429403398B366DC18F0678E?ln=bsf HTTP/1.1" 200 10876
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:02:20:56 +0200] "GET /aaa/javax.faces.resource/oamSubmit.js.xhtml?ln=org.apache.myfaces HTTP/1.1" 200 1874
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:02:20:56 +0200] "GET /aaa/javax.faces.resource/css/core.css.xhtml;jsessionid=22E9A3B22429403398B366DC18F0678E?ln=bsf HTTP/1.1" 200 71845
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:02:20:56 +0200] "GET /aaa/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo HTTP/1.1" 200 29090
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:02:21:09 +0200] "POST /aaa/index.xhtml;jsessionid=22E9A3B22429403398B366DC18F0678E HTTP/1.1" 200 1503
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:02:21:29 +0200] "GET /aaa/signup1.xhtml HTTP/1.1" 200 2878
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:15:11:31 +0200] "GET /lalala/index.xhtml HTTP/1.1" 200 4281
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:15:11:53 +0200] "GET /lalala/nuovoFornitore.xhtml HTTP/1.1" 200 2765
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:15:11:55 +0200] "GET /lalala/nuovoFornitore.xhtml HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:15:12:24 +0200] "GET /lalala/carrello.xhtml HTTP/1.1" 200 1465
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:15:16:26 +0200] "GET /lalala/carrello.xhtml HTTP/1.1" 200 1522
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:15:16:27 +0200] "GET /lalala/carrello.xhtml HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:15:16:29 +0200] "GET /lalala/carrello.xhtml HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2015:15:16:35 +0200] "GET /lalala/index.xhtml HTTP/1.1" 200 4321

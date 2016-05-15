@@ -1,0 +1,2 @@
+mag 22, 2015 6:09:24 PM org.apache.catalina.core.ApplicationContext log
+INFORMAZIONI: No state saving method defined, assuming default server state saving

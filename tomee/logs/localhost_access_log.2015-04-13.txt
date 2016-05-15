@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:08:57:40 +0200] "GET /siw-servlet-es0/inserimento.html HTTP/1.1" 200 316
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:05:44 +0200] "GET /siw-servlet-es0/processaDati?nome=ciao&cognome=ciao&sumbit=invia HTTP/1.1" 404 1039
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:06:43 +0200] "GET /siw-servlet-es0/processaDati?nome=ciao&cognome=ciao&sumbit=invia HTTP/1.1" 404 1039
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:06:50 +0200] "GET /siw-servlet-es0/processaDati?nome=ciao&cognome=ciao&sumbit=invia HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:39:43 +0200] "GET /siw-servlet-es0/newProduct.html HTTP/1.1" 404 1045
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:39:50 +0200] "GET /siw-servlet-es1/newProduct.html HTTP/1.1" 404 1045
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:40:30 +0200] "GET /siw-servlet-es1/newProduct.html HTTP/1.1" 404 1045
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:40:33 +0200] "GET /siw-servlet-es1/newProduct.html HTTP/1.1" 404 1045
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:41:57 +0200] "GET /siw-servlet-es1/newProduct.html HTTP/1.1" 200 369
+0:0:0:0:0:0:0:1 - - [13/Apr/2015:09:42:21 +0200] "GET /siw-servlet-es1/processaDati?descrizione=merda&nome=alessio&prezzo=2+euro&sumbit=invia HTTP/1.1" 200 493

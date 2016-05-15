@@ -1,0 +1,1444 @@
+apr 16, 2015 8:41:16 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAZIONI: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\OCaml\emacs-23.3\bin;C:\Tcl\bin;C:\OCaml\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;.
+apr 16, 2015 8:41:17 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["http-bio-8080"]
+apr 16, 2015 8:41:17 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["ajp-bio-8009"]
+apr 16, 2015 8:41:18 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: OpenEJB http://openejb.apache.org/
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Startup: Thu Apr 16 20:41:19 CEST 2015
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Version: 4.7.1
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build date: 20140912
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build time: 01:43
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.home = C:\Program Files\apache-tomee-jaxrs-1.7.1
+apr 16, 2015 8:41:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.base = C:\Program Files\apache-tomee-jaxrs-1.7.1
+apr 16, 2015 8:41:19 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:19 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Succeeded in installing singleton service
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.ConfigurationFactory init
+INFORMAZIONI: openejb configuration file is 'C:\Program Files\apache-tomee-jaxrs-1.7.1\conf\tomee.xml'
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+apr 16, 2015 8:41:19 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.system.apps=true'
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: openejb
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Using openejb.deploymentId.format '{ejbName}'
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.AutoConfig createContainer
+INFORMAZIONI: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "openejb" loaded.
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating TransactionManager(id=Default Transaction Manager)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating SecurityService(id=Tomcat Security Service)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Container(id=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: openejb
+apr 16, 2015 8:41:19 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFORMAZIONI: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+apr 16, 2015 8:41:19 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=openejb)
+apr 16, 2015 8:41:19 PM org.apache.openejb.server.ServiceManager initServer
+INFORMAZIONI: Creating ServerService(id=cxf-rs)
+apr 16, 2015 8:41:20 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI:   ** Bound Services **
+apr 16, 2015 8:41:20 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFORMAZIONI:   NAME                 IP              PORT  
+apr 16, 2015 8:41:20 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: -------
+apr 16, 2015 8:41:20 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: Ready!
+apr 16, 2015 8:41:20 PM org.apache.catalina.startup.Catalina load
+INFORMAZIONI: Initialization processed in 4134 ms
+apr 16, 2015 8:41:20 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFORMAZIONI: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+apr 16, 2015 8:41:20 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=UserDatabase)
+apr 16, 2015 8:41:20 PM org.apache.catalina.core.StandardService startInternal
+INFORMAZIONI: Starting service Catalina
+apr 16, 2015 8:41:20 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAZIONI: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+apr 16, 2015 8:41:20 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0.war
+apr 16, 2015 8:41:20 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es0
+apr 16, 2015 8:41:20 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0
+apr 16, 2015 8:41:20 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0" loaded.
+apr 16, 2015 8:41:20 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0
+apr 16, 2015 8:41:20 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:20 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:41:20 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:41:20 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:41:20 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:41:20 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 108 ms.
+apr 16, 2015 8:41:20 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0)
+apr 16, 2015 8:41:21 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0.war has finished in 988 ms
+apr 16, 2015 8:41:21 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war
+apr 16, 2015 8:41:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es1
+apr 16, 2015 8:41:21 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 8:41:21 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1" loaded.
+apr 16, 2015 8:41:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 8:41:21 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:41:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:41:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:41:21 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:41:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 11 ms.
+apr 16, 2015 8:41:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1)
+apr 16, 2015 8:41:21 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war has finished in 369 ms
+apr 16, 2015 8:41:21 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 8:41:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 8:41:21 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 8:41:21 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 8:41:21 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 8:41:21 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 8:41:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 8:41:21 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:41:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:41:21 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:41:21 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:41:21 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 19 ms.
+apr 16, 2015 8:41:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 8:41:21 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 311 ms
+apr 16, 2015 8:41:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 8:41:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /docs
+apr 16, 2015 8:41:21 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs" loaded.
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 11 ms.
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs)
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs has finished in 260 ms
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 8:41:22 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /host-manager
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager" loaded.
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 6 ms.
+apr 16, 2015 8:41:22 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager\META-INF\context.xml
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager)
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager has finished in 247 ms
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 8:41:22 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /manager
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager" loaded.
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 14 ms.
+apr 16, 2015 8:41:22 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager\META-INF\context.xml
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager)
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager has finished in 218 ms
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 8:41:22 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT" loaded.
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 6 ms.
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT)
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT has finished in 147 ms
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 8:41:22 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /tomee
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 8:41:22 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee" loaded.
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:41:22 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:41:22 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 7 ms.
+apr 16, 2015 8:41:22 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee)
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee has finished in 163 ms
+apr 16, 2015 8:41:22 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["http-bio-8080"]
+apr 16, 2015 8:41:22 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["ajp-bio-8009"]
+apr 16, 2015 8:41:22 PM org.apache.catalina.startup.Catalina start
+INFORMAZIONI: Server startup in 2779 ms
+apr 16, 2015 8:45:03 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-esempio3]
+apr 16, 2015 8:45:03 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 8:45:03 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 8:45:03 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 8:45:03 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 8:45:03 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 8:45:03 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 8:45:03 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 8:45:03 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 8:45:03 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 8:45:04 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 8:45:04 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 8:45:04 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 8:45:04 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 8:45:04 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 13 ms.
+apr 16, 2015 8:45:04 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 8:45:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 200 ms
+apr 16, 2015 9:14:17 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-esempio3]
+apr 16, 2015 9:14:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:14:18 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 9:14:18 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 9:14:18 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 9:14:18 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:14:18 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:14:18 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 9:14:18 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:14:18 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:14:18 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:14:18 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:14:18 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:14:18 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:14:18 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 27 ms.
+apr 16, 2015 9:14:18 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 9:14:18 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 640 ms
+apr 16, 2015 9:18:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAZIONI: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\OCaml\emacs-23.3\bin;C:\Tcl\bin;C:\OCaml\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;.
+apr 16, 2015 9:18:50 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["http-bio-8080"]
+apr 16, 2015 9:18:50 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["ajp-bio-8009"]
+apr 16, 2015 9:18:51 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: OpenEJB http://openejb.apache.org/
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Startup: Thu Apr 16 21:18:51 CEST 2015
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Version: 4.7.1
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build date: 20140912
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build time: 01:43
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.home = C:\Program Files\apache-tomee-jaxrs-1.7.1
+apr 16, 2015 9:18:51 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.base = C:\Program Files\apache-tomee-jaxrs-1.7.1
+apr 16, 2015 9:18:51 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:51 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Succeeded in installing singleton service
+apr 16, 2015 9:18:51 PM org.apache.openejb.config.ConfigurationFactory init
+INFORMAZIONI: openejb configuration file is 'C:\Program Files\apache-tomee-jaxrs-1.7.1\conf\tomee.xml'
+apr 16, 2015 9:18:51 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+apr 16, 2015 9:18:51 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+apr 16, 2015 9:18:51 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.system.apps=true'
+apr 16, 2015 9:18:52 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: openejb
+apr 16, 2015 9:18:52 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Using openejb.deploymentId.format '{ejbName}'
+apr 16, 2015 9:18:52 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+apr 16, 2015 9:18:52 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 9:18:52 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+apr 16, 2015 9:18:52 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.config.AutoConfig createContainer
+INFORMAZIONI: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "openejb" loaded.
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating TransactionManager(id=Default Transaction Manager)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating SecurityService(id=Tomcat Security Service)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Container(id=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: openejb
+apr 16, 2015 9:18:52 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFORMAZIONI: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+apr 16, 2015 9:18:52 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=openejb)
+apr 16, 2015 9:18:52 PM org.apache.openejb.server.ServiceManager initServer
+INFORMAZIONI: Creating ServerService(id=cxf-rs)
+apr 16, 2015 9:18:52 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI:   ** Bound Services **
+apr 16, 2015 9:18:52 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFORMAZIONI:   NAME                 IP              PORT  
+apr 16, 2015 9:18:52 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: -------
+apr 16, 2015 9:18:52 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: Ready!
+apr 16, 2015 9:18:52 PM org.apache.catalina.startup.Catalina load
+INFORMAZIONI: Initialization processed in 4631 ms
+apr 16, 2015 9:18:53 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFORMAZIONI: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+apr 16, 2015 9:18:53 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=UserDatabase)
+apr 16, 2015 9:18:53 PM org.apache.catalina.core.StandardService startInternal
+INFORMAZIONI: Starting service Catalina
+apr 16, 2015 9:18:53 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAZIONI: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+apr 16, 2015 9:18:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0.war
+apr 16, 2015 9:18:53 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es0
+apr 16, 2015 9:18:53 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0
+apr 16, 2015 9:18:53 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0" loaded.
+apr 16, 2015 9:18:53 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0
+apr 16, 2015 9:18:53 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:53 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:18:53 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:18:53 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:18:53 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:18:53 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 113 ms.
+apr 16, 2015 9:18:53 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0)
+apr 16, 2015 9:18:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0.war has finished in 934 ms
+apr 16, 2015 9:18:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war
+apr 16, 2015 9:18:53 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es1
+apr 16, 2015 9:18:54 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 9:18:54 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1" loaded.
+apr 16, 2015 9:18:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:18:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:18:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:18:54 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 15 ms.
+apr 16, 2015 9:18:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1)
+apr 16, 2015 9:18:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war has finished in 283 ms
+apr 16, 2015 9:18:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 9:18:54 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 9:18:54 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:18:54 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 9:18:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:18:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:18:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:18:54 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 12 ms.
+apr 16, 2015 9:18:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 9:18:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 220 ms
+apr 16, 2015 9:18:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 9:18:54 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /docs
+apr 16, 2015 9:18:54 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 9:18:54 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs" loaded.
+apr 16, 2015 9:18:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:18:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:18:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:18:54 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 10 ms.
+apr 16, 2015 9:18:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs)
+apr 16, 2015 9:18:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs has finished in 197 ms
+apr 16, 2015 9:18:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 9:18:54 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /host-manager
+apr 16, 2015 9:18:54 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 9:18:54 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager" loaded.
+apr 16, 2015 9:18:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:18:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:18:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:18:54 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:18:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 18 ms.
+apr 16, 2015 9:18:54 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager\META-INF\context.xml
+apr 16, 2015 9:18:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager)
+apr 16, 2015 9:18:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager has finished in 254 ms
+apr 16, 2015 9:18:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 9:18:54 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /manager
+apr 16, 2015 9:18:55 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 9:18:55 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager" loaded.
+apr 16, 2015 9:18:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:18:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:18:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:18:55 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 8 ms.
+apr 16, 2015 9:18:55 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager\META-INF\context.xml
+apr 16, 2015 9:18:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager)
+apr 16, 2015 9:18:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager has finished in 265 ms
+apr 16, 2015 9:18:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 9:18:55 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /
+apr 16, 2015 9:18:55 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 9:18:55 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT" loaded.
+apr 16, 2015 9:18:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:18:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:18:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:18:55 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 11 ms.
+apr 16, 2015 9:18:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT)
+apr 16, 2015 9:18:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT has finished in 180 ms
+apr 16, 2015 9:18:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 9:18:55 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /tomee
+apr 16, 2015 9:18:55 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 9:18:55 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee" loaded.
+apr 16, 2015 9:18:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:18:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:18:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:18:55 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:18:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 10 ms.
+apr 16, 2015 9:18:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee)
+apr 16, 2015 9:18:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee has finished in 191 ms
+apr 16, 2015 9:18:55 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["http-bio-8080"]
+apr 16, 2015 9:18:55 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["ajp-bio-8009"]
+apr 16, 2015 9:18:55 PM org.apache.catalina.startup.Catalina start
+INFORMAZIONI: Server startup in 2601 ms
+apr 16, 2015 9:19:15 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-esempio3]
+apr 16, 2015 9:19:15 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:19:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 9:19:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 9:19:16 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 9:19:16 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:19:16 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:19:16 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 9:19:16 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:19:16 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:19:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:19:17 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:19:17 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:19:17 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:19:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 34 ms.
+apr 16, 2015 9:19:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 9:19:17 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 715 ms
+apr 16, 2015 9:23:17 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-es1]
+apr 16, 2015 9:23:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 9:23:18 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war
+apr 16, 2015 9:23:18 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es1
+apr 16, 2015 9:23:18 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war
+apr 16, 2015 9:23:18 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 9:23:19 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 9:23:19 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1" loaded.
+apr 16, 2015 9:23:19 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 9:23:19 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:23:19 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:23:19 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:23:19 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:23:19 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:23:19 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 47 ms.
+apr 16, 2015 9:23:19 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1)
+apr 16, 2015 9:23:19 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war has finished in 767 ms
+apr 16, 2015 9:35:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4.war
+apr 16, 2015 9:35:11 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es4
+apr 16, 2015 9:35:11 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4.war
+apr 16, 2015 9:35:11 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:35:11 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:35:11 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4" loaded.
+apr 16, 2015 9:35:11 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:35:11 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:35:11 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:35:11 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:35:11 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:35:11 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:35:11 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 38 ms.
+apr 16, 2015 9:35:11 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4)
+apr 16, 2015 9:35:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4.war has finished in 627 ms
+apr 16, 2015 9:45:42 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5.war
+apr 16, 2015 9:45:42 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es5
+apr 16, 2015 9:45:43 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5.war
+apr 16, 2015 9:45:43 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5
+apr 16, 2015 9:45:43 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5
+apr 16, 2015 9:45:43 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5" loaded.
+apr 16, 2015 9:45:43 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5
+apr 16, 2015 9:45:43 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:45:43 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:45:43 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:45:43 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:45:43 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:45:43 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 29 ms.
+apr 16, 2015 9:45:43 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5)
+apr 16, 2015 9:45:43 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5.war has finished in 584 ms
+apr 16, 2015 9:47:03 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-es4]
+apr 16, 2015 9:47:03 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:47:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4.war
+apr 16, 2015 9:47:04 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es4
+apr 16, 2015 9:47:04 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4.war
+apr 16, 2015 9:47:04 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:47:04 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:47:05 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4" loaded.
+apr 16, 2015 9:47:05 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:47:05 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:47:05 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:47:05 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:47:05 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:47:05 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:47:05 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 39 ms.
+apr 16, 2015 9:47:05 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4)
+apr 16, 2015 9:47:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4.war has finished in 476 ms
+apr 16, 2015 9:50:46 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-esempio3]
+apr 16, 2015 9:50:46 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:51:00 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAZIONI: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\OCaml\emacs-23.3\bin;C:\Tcl\bin;C:\OCaml\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;.
+apr 16, 2015 9:51:01 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["http-bio-8080"]
+apr 16, 2015 9:51:01 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["ajp-bio-8009"]
+apr 16, 2015 9:51:02 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: OpenEJB http://openejb.apache.org/
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Startup: Thu Apr 16 21:51:02 CEST 2015
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Version: 4.7.1
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build date: 20140912
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build time: 01:43
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.home = C:\Program Files\apache-tomee-jaxrs-1.7.1
+apr 16, 2015 9:51:02 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.base = C:\Program Files\apache-tomee-jaxrs-1.7.1
+apr 16, 2015 9:51:02 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:02 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Succeeded in installing singleton service
+apr 16, 2015 9:51:02 PM org.apache.openejb.config.ConfigurationFactory init
+INFORMAZIONI: openejb configuration file is 'C:\Program Files\apache-tomee-jaxrs-1.7.1\conf\tomee.xml'
+apr 16, 2015 9:51:02 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+apr 16, 2015 9:51:02 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+apr 16, 2015 9:51:02 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.system.apps=true'
+apr 16, 2015 9:51:02 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: openejb
+apr 16, 2015 9:51:03 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Using openejb.deploymentId.format '{ejbName}'
+apr 16, 2015 9:51:03 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+apr 16, 2015 9:51:03 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 9:51:03 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+apr 16, 2015 9:51:03 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+apr 16, 2015 9:51:03 PM org.apache.openejb.config.AutoConfig createContainer
+INFORMAZIONI: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+apr 16, 2015 9:51:03 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "openejb" loaded.
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating TransactionManager(id=Default Transaction Manager)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating SecurityService(id=Tomcat Security Service)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Container(id=Default Stateless Container)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: openejb
+apr 16, 2015 9:51:03 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+apr 16, 2015 9:51:03 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+apr 16, 2015 9:51:04 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFORMAZIONI: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+apr 16, 2015 9:51:04 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=openejb)
+apr 16, 2015 9:51:04 PM org.apache.openejb.server.ServiceManager initServer
+INFORMAZIONI: Creating ServerService(id=cxf-rs)
+apr 16, 2015 9:51:04 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI:   ** Bound Services **
+apr 16, 2015 9:51:04 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFORMAZIONI:   NAME                 IP              PORT  
+apr 16, 2015 9:51:04 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: -------
+apr 16, 2015 9:51:04 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: Ready!
+apr 16, 2015 9:51:04 PM org.apache.catalina.startup.Catalina load
+INFORMAZIONI: Initialization processed in 5125 ms
+apr 16, 2015 9:51:04 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFORMAZIONI: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+apr 16, 2015 9:51:04 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=UserDatabase)
+apr 16, 2015 9:51:04 PM org.apache.catalina.core.StandardService startInternal
+INFORMAZIONI: Starting service Catalina
+apr 16, 2015 9:51:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAZIONI: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+apr 16, 2015 9:51:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0.war
+apr 16, 2015 9:51:04 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es0
+apr 16, 2015 9:51:04 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0
+apr 16, 2015 9:51:04 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0" loaded.
+apr 16, 2015 9:51:04 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0
+apr 16, 2015 9:51:04 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:05 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:05 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:05 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:05 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:05 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 187 ms.
+apr 16, 2015 9:51:05 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0)
+apr 16, 2015 9:51:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es0.war has finished in 1,406 ms
+apr 16, 2015 9:51:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war
+apr 16, 2015 9:51:05 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es1
+apr 16, 2015 9:51:05 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 9:51:05 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1" loaded.
+apr 16, 2015 9:51:05 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1
+apr 16, 2015 9:51:05 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:06 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:06 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:06 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:06 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:06 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 16 ms.
+apr 16, 2015 9:51:06 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1)
+apr 16, 2015 9:51:06 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es1.war has finished in 391 ms
+apr 16, 2015 9:51:06 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4.war
+apr 16, 2015 9:51:06 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es4
+apr 16, 2015 9:51:06 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:51:06 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4" loaded.
+apr 16, 2015 9:51:06 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4
+apr 16, 2015 9:51:06 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:06 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:06 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:06 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:06 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:06 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 31 ms.
+apr 16, 2015 9:51:06 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4)
+apr 16, 2015 9:51:06 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es4.war has finished in 437 ms
+apr 16, 2015 9:51:06 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5.war
+apr 16, 2015 9:51:06 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-es5
+apr 16, 2015 9:51:06 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5
+apr 16, 2015 9:51:06 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5" loaded.
+apr 16, 2015 9:51:06 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5
+apr 16, 2015 9:51:06 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:06 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:06 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:06 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:06 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:06 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 16 ms.
+apr 16, 2015 9:51:06 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5)
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-es5.war has finished in 406 ms
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 9:51:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /docs
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs" loaded.
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 16 ms.
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs)
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs has finished in 266 ms
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 9:51:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /host-manager
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager" loaded.
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 0 ms.
+apr 16, 2015 9:51:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager\META-INF\context.xml
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager)
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager has finished in 203 ms
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 9:51:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /manager
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager" loaded.
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 0 ms.
+apr 16, 2015 9:51:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager\META-INF\context.xml
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager)
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager has finished in 140 ms
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 9:51:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT" loaded.
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 0 ms.
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT)
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT has finished in 125 ms
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 9:51:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /tomee
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 9:51:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee" loaded.
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:07 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 15 ms.
+apr 16, 2015 9:51:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee)
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee has finished in 141 ms
+apr 16, 2015 9:51:07 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["http-bio-8080"]
+apr 16, 2015 9:51:07 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["ajp-bio-8009"]
+apr 16, 2015 9:51:07 PM org.apache.catalina.startup.Catalina start
+INFORMAZIONI: Server startup in 3631 ms
+apr 16, 2015 9:51:28 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 9:51:28 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 9:51:28 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 9:51:28 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:51:28 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:51:28 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 9:51:28 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 9:51:28 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 9:51:28 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 9:51:28 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 9:51:28 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 9:51:28 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 9:51:28 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 31 ms.
+apr 16, 2015 9:51:28 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 9:51:28 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 688 ms
+apr 16, 2015 10:04:10 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-esempio3]
+apr 16, 2015 10:04:10 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:04:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 10:04:11 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 10:04:11 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 10:04:11 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:04:11 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:04:11 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 10:04:11 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:04:11 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 10:04:11 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 10:04:11 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 10:04:11 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 10:04:11 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 10:04:11 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 32 ms.
+apr 16, 2015 10:04:11 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 10:04:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 454 ms
+apr 16, 2015 10:04:51 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-esempio3]
+apr 16, 2015 10:04:51 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:04:52 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 10:04:52 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 10:04:52 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 10:04:52 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:04:53 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:04:53 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 10:04:53 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:04:53 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 10:04:53 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 10:04:53 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 10:04:53 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 10:04:53 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 10:04:53 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 15 ms.
+apr 16, 2015 10:04:53 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 10:04:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 437 ms
+apr 16, 2015 10:05:33 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-esempio3]
+apr 16, 2015 10:05:33 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:05:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 10:05:34 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 10:05:34 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 10:05:34 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:05:34 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:05:34 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 10:05:34 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:05:34 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 10:05:34 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 10:05:34 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 10:05:34 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 10:05:34 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 10:05:34 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 32 ms.
+apr 16, 2015 10:05:34 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 10:05:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 531 ms
+apr 16, 2015 10:25:47 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/siw-servlet-esempio3]
+apr 16, 2015 10:25:47 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:25:48 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 10:25:48 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /siw-servlet-esempio3
+apr 16, 2015 10:25:48 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war
+apr 16, 2015 10:25:48 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:25:48 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:25:48 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3" loaded.
+apr 16, 2015 10:25:48 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3
+apr 16, 2015 10:25:48 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@49c43f4e
+apr 16, 2015 10:25:48 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+apr 16, 2015 10:25:48 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+apr 16, 2015 10:25:48 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+apr 16, 2015 10:25:48 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+apr 16, 2015 10:25:48 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 18 ms.
+apr 16, 2015 10:25:48 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3)
+apr 16, 2015 10:25:48 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\siw-servlet-esempio3.war has finished in 515 ms

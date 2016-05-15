@@ -1,0 +1,1392 @@
+giu 17, 2015 2:20:34 AM org.apache.catalina.core.AprLifecycleListener init
+INFORMAZIONI: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\System32;.
+giu 17, 2015 2:20:35 AM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["http-bio-8080"]
+giu 17, 2015 2:20:35 AM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["ajp-bio-8009"]
+giu 17, 2015 2:20:36 AM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: OpenEJB http://openejb.apache.org/
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Startup: Wed Jun 17 02:20:36 CEST 2015
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Version: 4.7.1
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build date: 20140912
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build time: 01:43
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.home = C:\Program Files\apache-tomee-jaxrs-1.7.1
+giu 17, 2015 2:20:36 AM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.base = C:\Program Files\apache-tomee-jaxrs-1.7.1
+giu 17, 2015 2:20:36 AM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 2:20:36 AM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Succeeded in installing singleton service
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.ConfigurationFactory init
+INFORMAZIONI: openejb configuration file is 'C:\Program Files\apache-tomee-jaxrs-1.7.1\conf\tomee.xml'
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=PostgreSQL Database, type=Resource, provider-id=Default JDBC Database)
+giu 17, 2015 2:20:36 AM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.system.apps=true'
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: openejb
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Using openejb.deploymentId.format '{ejbName}'
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.AutoConfig createContainer
+INFORMAZIONI: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "openejb" loaded.
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating TransactionManager(id=Default Transaction Manager)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating SecurityService(id=Tomcat Security Service)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=PostgreSQL Database)
+giu 17, 2015 2:20:36 AM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFORMAZIONI: Disabling testOnBorrow since no validation query is provided
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Container(id=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: openejb
+giu 17, 2015 2:20:36 AM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFORMAZIONI: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+giu 17, 2015 2:20:36 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=openejb)
+giu 17, 2015 2:20:37 AM org.apache.openejb.server.ServiceManager initServer
+INFORMAZIONI: Creating ServerService(id=cxf-rs)
+giu 17, 2015 2:20:37 AM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI:   ** Bound Services **
+giu 17, 2015 2:20:37 AM org.apache.openejb.server.SimpleServiceManager printRow
+INFORMAZIONI:   NAME                 IP              PORT  
+giu 17, 2015 2:20:37 AM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: -------
+giu 17, 2015 2:20:37 AM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: Ready!
+giu 17, 2015 2:20:37 AM org.apache.catalina.startup.Catalina load
+INFORMAZIONI: Initialization processed in 2699 ms
+giu 17, 2015 2:20:37 AM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFORMAZIONI: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+giu 17, 2015 2:20:37 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=UserDatabase)
+giu 17, 2015 2:20:37 AM org.apache.catalina.core.StandardService startInternal
+INFORMAZIONI: Starting service Catalina
+giu 17, 2015 2:20:37 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAZIONI: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+giu 17, 2015 2:20:37 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa.war
+giu 17, 2015 2:20:37 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /aaa
+giu 17, 2015 2:20:37 AM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa.war
+giu 17, 2015 2:20:37 AM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa
+giu 17, 2015 2:20:38 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMAZIONI: validateJarFile(C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa\WEB-INF\lib\el-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+giu 17, 2015 2:20:38 AM org.apache.tomee.catalina.TomEEClassLoaderEnricher validateJarFile
+AVVERTENZA: jar 'C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa\WEB-INF\lib\javaee-api-6.0-6-tomcat.jar' contains offending class: javax.persistence.Entity. It will be ignored.
+giu 17, 2015 2:20:38 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMAZIONI: validateJarFile(C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+giu 17, 2015 2:20:38 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb product: EjbDeployment(deployment-id=product)
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb order: EjbDeployment(deployment-id=order)
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb user: EjbDeployment(deployment-id=user)
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring PersistenceUnit(name=products-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFORMAZIONI: Auto-creating a Resource with id 'PostgreSQL DatabaseNonJta' of type 'DataSource for 'products-unit'.
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring Service(id=PostgreSQL DatabaseNonJta, type=Resource, provider-id=PostgreSQL Database)
+giu 17, 2015 2:20:40 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=PostgreSQL DatabaseNonJta)
+giu 17, 2015 2:20:40 AM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFORMAZIONI: Disabling testOnBorrow since no validation query is provided
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit products-unit <jta-data-source> to Resource ID 'PostgreSQL Database' from 'MySQL Database'
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit products-unit <non-jta-data-source> to Resource ID 'PostgreSQL DatabaseNonJta' from 'null'
+giu 17, 2015 2:20:40 AM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa" loaded.
+giu 17, 2015 2:20:40 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa
+giu 17, 2015 2:20:40 AM null
+INFORMAZIONI: OpenJPA dynamically loaded a validation provider.
+giu 17, 2015 2:20:40 AM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFORMAZIONI: PersistenceUnit(name=products-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 223ms
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=productLocalBean) --> Ejb(deployment-id=product)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/product!it.uniroma3.facade.ProductFacade) --> Ejb(deployment-id=product)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/product) --> Ejb(deployment-id=product)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=orderLocalBean) --> Ejb(deployment-id=order)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/order!it.uniroma3.facade.OrderFacade) --> Ejb(deployment-id=order)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/order) --> Ejb(deployment-id=order)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=userLocalBean) --> Ejb(deployment-id=user)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/user!it.uniroma3.facade.UserFacade) --> Ejb(deployment-id=user)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/user) --> Ejb(deployment-id=user)
+giu 17, 2015 2:20:41 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 2:20:41 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 2:20:41 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 2:20:41 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 2:20:41 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 2:20:41 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 154 ms.
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=product, ejb-name=product, container=Default Stateless Container)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=user, ejb-name=user, container=Default Stateless Container)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=order, ejb-name=order, container=Default Stateless Container)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=product, ejb-name=product, container=Default Stateless Container)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=user, ejb-name=user, container=Default Stateless Container)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=order, ejb-name=order, container=Default Stateless Container)
+giu 17, 2015 2:20:41 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa)
+giu 17, 2015 2:20:42 AM org.apache.myfaces.spi.impl.SpiUtils build
+AVVERTENZA: More than one SPI interface for org.apache.myfaces.spi.FacesConfigurationProviderFactory found :[org.apache.tomee.myfaces.TomEEFacesConfigurationProviderFactory, org.apache.tomee.myfaces.TomEEFacesConfigurationProviderFactory]. Setting up the first one found.
+giu 17, 2015 2:20:42 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFORMAZIONI: Reading standard config META-INF/standard-faces-config.xml
+giu 17, 2015 2:20:42 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFORMAZIONI: Reading config /WEB-INF/faces-config.xml
+giu 17, 2015 2:20:42 AM org.apache.myfaces.spi.impl.SpiUtils build
+AVVERTENZA: More than one SPI interface for org.apache.myfaces.spi.AnnotationProviderFactory found :[org.apache.tomee.myfaces.TomEEAnnotationProviderFactory, org.apache.tomee.myfaces.TomEEAnnotationProviderFactory]. Setting up the first one found.
+giu 17, 2015 2:20:42 AM org.apache.myfaces.spi.impl.SpiUtils build
+AVVERTENZA: More than one SPI interface for org.apache.myfaces.spi.FacesConfigResourceProviderFactory found :[org.apache.tomee.myfaces.TomEEFacesConfigResourceProviderFactory, org.apache.tomee.myfaces.TomEEFacesConfigResourceProviderFactory]. Setting up the first one found.
+giu 17, 2015 2:20:42 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:42 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/aaa/WEB-INF/lib/BootsFaces-OSP-dist-0.6.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:42 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/aaa/WEB-INF/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:42 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/aaa/WEB-INF/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:42 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:42 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/aaa/WEB-INF/lib/primefaces-5.2.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:43 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-api' was found in version '2.2.9-20150520.131754-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-api-2.2.9-20150520.131754-76.jar'
+giu 17, 2015 2:20:43 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-impl' was found in version '2.2.9-20150520.132004-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-impl-2.2.9-20150520.132004-76.jar'
+giu 17, 2015 2:20:43 AM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFORMAZIONI: MyFaces CDI support enabled
+giu 17, 2015 2:20:43 AM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFORMAZIONI: Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+giu 17, 2015 2:20:43 AM net.bootsfaces.listeners.AddResourcesListener <clinit>
+INFORMAZIONI: net.bootsfaces.listeners.AddResourcesListener ready for use.
+giu 17, 2015 2:20:43 AM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFORMAZIONI: MyFaces Bean Validation support enabled
+giu 17, 2015 2:20:43 AM org.apache.myfaces.application.ApplicationImpl getProjectStage
+INFORMAZIONI: Couldn't discover the current project stage, using Production
+giu 17, 2015 2:20:43 AM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFORMAZIONI: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+giu 17, 2015 2:20:43 AM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFORMAZIONI: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+giu 17, 2015 2:20:43 AM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMAZIONI: Running on PrimeFaces 5.2
+giu 17, 2015 2:20:43 AM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFORMAZIONI: ServletContext initialized.
+giu 17, 2015 2:20:43 AM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFORMAZIONI: MyFaces Unified EL support enabled
+giu 17, 2015 2:20:43 AM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFORMAZIONI: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+giu 17, 2015 2:20:44 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa.war has finished in 6,802 ms
+giu 17, 2015 2:20:44 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws.war
+giu 17, 2015 2:20:44 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /paws-and-claws
+giu 17, 2015 2:20:44 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb couponFacade: EjbDeployment(deployment-id=couponFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb uFacade: EjbDeployment(deployment-id=uFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb fFacade: EjbDeployment(deployment-id=fFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb oFacade: EjbDeployment(deployment-id=oFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb aFacade: EjbDeployment(deployment-id=aFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb pFacade: EjbDeployment(deployment-id=pFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.AutoConfig createContainer
+INFORMAZIONI: Auto-creating a container for bean paws-and-claws.Comp1764636902: Container(type=MANAGED, id=Default Managed Container)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Container(id=Default Managed Container)
+giu 17, 2015 2:20:45 AM org.apache.openejb.core.managed.SimplePassivater init
+INFORMAZIONI: Using directory C:\Program Files\apache-tomee-jaxrs-1.7.1\temp for stateful session passivation
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring PersistenceUnit(name=model-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit model-unit <non-jta-data-source> to Resource ID 'PostgreSQL DatabaseNonJta' from 'null'
+giu 17, 2015 2:20:45 AM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws" loaded.
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws
+giu 17, 2015 2:20:45 AM null
+INFORMAZIONI: OpenJPA dynamically loaded a validation provider.
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFORMAZIONI: PersistenceUnit(name=model-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 24ms
+giu 17, 2015 2:20:45 AM null
+AVVERTENZA: The type "models.Ordine" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=couponFacadeLocalBean) --> Ejb(deployment-id=couponFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/couponFacade!facades.CouponFacade) --> Ejb(deployment-id=couponFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/couponFacade) --> Ejb(deployment-id=couponFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=uFacadeLocalBean) --> Ejb(deployment-id=uFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/uFacade!facades.UtenteFacade) --> Ejb(deployment-id=uFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/uFacade) --> Ejb(deployment-id=uFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=fFacadeLocalBean) --> Ejb(deployment-id=fFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/fFacade!facades.FornitoreFacade) --> Ejb(deployment-id=fFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/fFacade) --> Ejb(deployment-id=fFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=oFacadeLocalBean) --> Ejb(deployment-id=oFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/oFacade!facades.OrdineFacade) --> Ejb(deployment-id=oFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/oFacade) --> Ejb(deployment-id=oFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=aFacadeLocalBean) --> Ejb(deployment-id=aFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/aFacade!facades.AmministratoreFacade) --> Ejb(deployment-id=aFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/aFacade) --> Ejb(deployment-id=aFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=pFacadeLocalBean) --> Ejb(deployment-id=pFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/pFacade!facades.ProdottoFacade) --> Ejb(deployment-id=pFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/pFacade) --> Ejb(deployment-id=pFacade)
+giu 17, 2015 2:20:45 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 2:20:45 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 2:20:45 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 2:20:45 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 2:20:46 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 2:20:46 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 629 ms.
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=fFacade, ejb-name=fFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=oFacade, ejb-name=oFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=couponFacade, ejb-name=couponFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=pFacade, ejb-name=pFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=uFacade, ejb-name=uFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=aFacade, ejb-name=aFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=fFacade, ejb-name=fFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=oFacade, ejb-name=oFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=couponFacade, ejb-name=couponFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=pFacade, ejb-name=pFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=uFacade, ejb-name=uFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=aFacade, ejb-name=aFacade, container=Default Stateless Container)
+giu 17, 2015 2:20:46 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws)
+giu 17, 2015 2:20:46 AM org.omnifaces.ApplicationInitializer logOmniFacesVersion
+INFORMAZIONI: Using OmniFaces version 2.1
+giu 17, 2015 2:20:46 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFORMAZIONI: Reading standard config META-INF/standard-faces-config.xml
+giu 17, 2015 2:20:46 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFORMAZIONI: Reading config /WEB-INF/faces-config.xml
+giu 17, 2015 2:20:47 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:47 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/paws-and-claws/WEB-INF/lib/primefaces-5.2.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:47 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:47 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/paws-and-claws/WEB-INF/lib/omnifaces-2.1.jar!/META-INF/faces-config.xml
+giu 17, 2015 2:20:47 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-api' was found in version '2.2.9-20150520.131754-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-api-2.2.9-20150520.131754-76.jar'
+giu 17, 2015 2:20:47 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-impl' was found in version '2.2.9-20150520.132004-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-impl-2.2.9-20150520.132004-76.jar'
+giu 17, 2015 2:20:47 AM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFORMAZIONI: MyFaces CDI support enabled
+giu 17, 2015 2:20:47 AM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFORMAZIONI: Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+giu 17, 2015 2:20:47 AM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFORMAZIONI: MyFaces Bean Validation support enabled
+giu 17, 2015 2:20:47 AM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFORMAZIONI: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+giu 17, 2015 2:20:47 AM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFORMAZIONI: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+giu 17, 2015 2:20:47 AM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMAZIONI: Running on PrimeFaces 5.2
+giu 17, 2015 2:20:47 AM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFORMAZIONI: ServletContext initialized.
+giu 17, 2015 2:20:47 AM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFORMAZIONI: MyFaces Unified EL support enabled
+giu 17, 2015 2:20:47 AM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFORMAZIONI: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+giu 17, 2015 2:20:47 AM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws.war has finished in 3,443 ms
+giu 17, 2015 2:20:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+giu 17, 2015 2:20:47 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /docs
+giu 17, 2015 2:20:47 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+giu 17, 2015 2:20:47 AM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs" loaded.
+giu 17, 2015 2:20:47 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+giu 17, 2015 2:20:47 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 2:20:47 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 2:20:47 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 2:20:47 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 2:20:47 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 2:20:47 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 13 ms.
+giu 17, 2015 2:20:47 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs)
+giu 17, 2015 2:20:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs has finished in 342 ms
+giu 17, 2015 2:20:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+giu 17, 2015 2:20:47 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /host-manager
+giu 17, 2015 2:20:47 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+giu 17, 2015 2:20:47 AM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager" loaded.
+giu 17, 2015 2:20:47 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+giu 17, 2015 2:20:47 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 2:20:47 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 2:20:47 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 2:20:47 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 2:20:47 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 2:20:47 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 15 ms.
+giu 17, 2015 2:20:47 AM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager\META-INF\context.xml
+giu 17, 2015 2:20:47 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager)
+giu 17, 2015 2:20:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager has finished in 176 ms
+giu 17, 2015 2:20:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+giu 17, 2015 2:20:48 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /manager
+giu 17, 2015 2:20:48 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+giu 17, 2015 2:20:48 AM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager" loaded.
+giu 17, 2015 2:20:48 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 2:20:48 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 2:20:48 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 2:20:48 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 18 ms.
+giu 17, 2015 2:20:48 AM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager\META-INF\context.xml
+giu 17, 2015 2:20:48 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager)
+giu 17, 2015 2:20:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager has finished in 272 ms
+giu 17, 2015 2:20:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+giu 17, 2015 2:20:48 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /
+giu 17, 2015 2:20:48 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+giu 17, 2015 2:20:48 AM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT" loaded.
+giu 17, 2015 2:20:48 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 2:20:48 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 2:20:48 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 2:20:48 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 18 ms.
+giu 17, 2015 2:20:48 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT)
+giu 17, 2015 2:20:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT has finished in 159 ms
+giu 17, 2015 2:20:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+giu 17, 2015 2:20:48 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /tomee
+giu 17, 2015 2:20:48 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+giu 17, 2015 2:20:48 AM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee" loaded.
+giu 17, 2015 2:20:48 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 2:20:48 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 2:20:48 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 2:20:48 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 2:20:48 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 17 ms.
+giu 17, 2015 2:20:48 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee)
+giu 17, 2015 2:20:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee has finished in 365 ms
+giu 17, 2015 2:20:48 AM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["http-bio-8080"]
+giu 17, 2015 2:20:48 AM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["ajp-bio-8009"]
+giu 17, 2015 2:20:48 AM org.apache.catalina.startup.Catalina start
+INFORMAZIONI: Server startup in 11718 ms
+giu 17, 2015 2:21:05 AM null
+INFORMAZIONI: Starting OpenJPA 2.4.0-nonfinal-1598334
+giu 17, 2015 2:21:06 AM null
+INFORMAZIONI: Using dictionary class "org.apache.openjpa.jdbc.sql.PostgresDictionary" (PostgreSQL 9.4.1 ,PostgreSQL Native Driver PostgreSQL 9.2 JDBC4 (build 1004)).
+giu 17, 2015 2:21:06 AM null
+INFORMAZIONI: Connected to PostgreSQL version 9.9 using JDBC driver PostgreSQL Native Driver version PostgreSQL 9.2 JDBC4 (build 1004). 
+giu 17, 2015 2:21:06 AM null
+AVVERTENZA: Found no persistent property in "it.uniroma3.model.Administrator"
+giu 17, 2015 3:10:58 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAZIONI: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\System32;.
+giu 17, 2015 3:10:59 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["http-bio-8080"]
+giu 17, 2015 3:10:59 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["ajp-bio-8009"]
+giu 17, 2015 3:10:59 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: OpenEJB http://openejb.apache.org/
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Startup: Wed Jun 17 15:11:00 CEST 2015
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Version: 4.7.1
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build date: 20140912
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: Build time: 01:43
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: ********************************************************************************
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.home = C:\Program Files\apache-tomee-jaxrs-1.7.1
+giu 17, 2015 3:11:00 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMAZIONI: openejb.base = C:\Program Files\apache-tomee-jaxrs-1.7.1
+giu 17, 2015 3:11:00 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:00 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMAZIONI: Succeeded in installing singleton service
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.ConfigurationFactory init
+INFORMAZIONI: openejb configuration file is 'C:\Program Files\apache-tomee-jaxrs-1.7.1\conf\tomee.xml'
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=PostgreSQL Database, type=Resource, provider-id=Default JDBC Database)
+giu 17, 2015 3:11:00 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.system.apps=true'
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: openejb
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Using openejb.deploymentId.format '{ejbName}'
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.AutoConfig createContainer
+INFORMAZIONI: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+giu 17, 2015 3:11:00 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "openejb" loaded.
+giu 17, 2015 3:11:00 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating TransactionManager(id=Default Transaction Manager)
+giu 17, 2015 3:11:00 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating SecurityService(id=Tomcat Security Service)
+giu 17, 2015 3:11:00 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=PostgreSQL Database)
+giu 17, 2015 3:11:00 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFORMAZIONI: Disabling testOnBorrow since no validation query is provided
+giu 17, 2015 3:11:00 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Container(id=Default Stateless Container)
+giu 17, 2015 3:11:00 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: openejb
+giu 17, 2015 3:11:00 PM org.apache.openejb.util.OptionsLog info
+INFORMAZIONI: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFORMAZIONI: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=openejb)
+giu 17, 2015 3:11:01 PM org.apache.openejb.server.ServiceManager initServer
+INFORMAZIONI: Creating ServerService(id=cxf-rs)
+giu 17, 2015 3:11:01 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI:   ** Bound Services **
+giu 17, 2015 3:11:01 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFORMAZIONI:   NAME                 IP              PORT  
+giu 17, 2015 3:11:01 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: -------
+giu 17, 2015 3:11:01 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMAZIONI: Ready!
+giu 17, 2015 3:11:01 PM org.apache.catalina.startup.Catalina load
+INFORMAZIONI: Initialization processed in 2903 ms
+giu 17, 2015 3:11:01 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFORMAZIONI: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+giu 17, 2015 3:11:01 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=UserDatabase)
+giu 17, 2015 3:11:01 PM org.apache.catalina.core.StandardService startInternal
+INFORMAZIONI: Starting service Catalina
+giu 17, 2015 3:11:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAZIONI: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+giu 17, 2015 3:11:01 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa.war
+giu 17, 2015 3:11:01 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /aaa
+giu 17, 2015 3:11:04 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMAZIONI: validateJarFile(C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa\WEB-INF\lib\el-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+giu 17, 2015 3:11:04 PM org.apache.tomee.catalina.TomEEClassLoaderEnricher validateJarFile
+AVVERTENZA: jar 'C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa\WEB-INF\lib\javaee-api-6.0-6-tomcat.jar' contains offending class: javax.persistence.Entity. It will be ignored.
+giu 17, 2015 3:11:04 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMAZIONI: validateJarFile(C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+giu 17, 2015 3:11:05 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb order: EjbDeployment(deployment-id=order)
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb user: EjbDeployment(deployment-id=user)
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb product: EjbDeployment(deployment-id=product)
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring PersistenceUnit(name=products-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFORMAZIONI: Auto-creating a Resource with id 'PostgreSQL DatabaseNonJta' of type 'DataSource for 'products-unit'.
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring Service(id=PostgreSQL DatabaseNonJta, type=Resource, provider-id=PostgreSQL Database)
+giu 17, 2015 3:11:07 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=PostgreSQL DatabaseNonJta)
+giu 17, 2015 3:11:07 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFORMAZIONI: Disabling testOnBorrow since no validation query is provided
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit products-unit <jta-data-source> to Resource ID 'PostgreSQL Database' from 'MySQL Database'
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit products-unit <non-jta-data-source> to Resource ID 'PostgreSQL DatabaseNonJta' from 'null'
+giu 17, 2015 3:11:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa" loaded.
+giu 17, 2015 3:11:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa
+giu 17, 2015 3:11:07 PM null
+INFORMAZIONI: OpenJPA dynamically loaded a validation provider.
+giu 17, 2015 3:11:07 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFORMAZIONI: PersistenceUnit(name=products-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 317ms
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=orderLocalBean) --> Ejb(deployment-id=order)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/order!it.uniroma3.facade.OrderFacade) --> Ejb(deployment-id=order)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/order) --> Ejb(deployment-id=order)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=userLocalBean) --> Ejb(deployment-id=user)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/user!it.uniroma3.facade.UserFacade) --> Ejb(deployment-id=user)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/user) --> Ejb(deployment-id=user)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=productLocalBean) --> Ejb(deployment-id=product)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/product!it.uniroma3.facade.ProductFacade) --> Ejb(deployment-id=product)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/aaa/product) --> Ejb(deployment-id=product)
+giu 17, 2015 3:11:08 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:11:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:11:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:11:08 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:11:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 282 ms.
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=product, ejb-name=product, container=Default Stateless Container)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=user, ejb-name=user, container=Default Stateless Container)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=order, ejb-name=order, container=Default Stateless Container)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=product, ejb-name=product, container=Default Stateless Container)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=user, ejb-name=user, container=Default Stateless Container)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=order, ejb-name=order, container=Default Stateless Container)
+giu 17, 2015 3:11:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa)
+giu 17, 2015 3:11:09 PM org.apache.myfaces.spi.impl.SpiUtils build
+AVVERTENZA: More than one SPI interface for org.apache.myfaces.spi.FacesConfigurationProviderFactory found :[org.apache.tomee.myfaces.TomEEFacesConfigurationProviderFactory, org.apache.tomee.myfaces.TomEEFacesConfigurationProviderFactory]. Setting up the first one found.
+giu 17, 2015 3:11:09 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFORMAZIONI: Reading standard config META-INF/standard-faces-config.xml
+giu 17, 2015 3:11:09 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFORMAZIONI: Reading config /WEB-INF/faces-config.xml
+giu 17, 2015 3:11:09 PM org.apache.myfaces.spi.impl.SpiUtils build
+AVVERTENZA: More than one SPI interface for org.apache.myfaces.spi.AnnotationProviderFactory found :[org.apache.tomee.myfaces.TomEEAnnotationProviderFactory, org.apache.tomee.myfaces.TomEEAnnotationProviderFactory]. Setting up the first one found.
+giu 17, 2015 3:11:09 PM org.apache.myfaces.spi.impl.SpiUtils build
+AVVERTENZA: More than one SPI interface for org.apache.myfaces.spi.FacesConfigResourceProviderFactory found :[org.apache.tomee.myfaces.TomEEFacesConfigResourceProviderFactory, org.apache.tomee.myfaces.TomEEFacesConfigResourceProviderFactory]. Setting up the first one found.
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/aaa/WEB-INF/lib/BootsFaces-OSP-dist-0.6.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/aaa/WEB-INF/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/aaa/WEB-INF/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/aaa/WEB-INF/lib/primefaces-5.2.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-api' was found in version '2.2.9-20150520.131754-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-api-2.2.9-20150520.131754-76.jar'
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-impl' was found in version '2.2.9-20150520.132004-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-impl-2.2.9-20150520.132004-76.jar'
+giu 17, 2015 3:11:10 PM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFORMAZIONI: MyFaces CDI support enabled
+giu 17, 2015 3:11:10 PM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFORMAZIONI: Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+giu 17, 2015 3:11:10 PM net.bootsfaces.listeners.AddResourcesListener <clinit>
+INFORMAZIONI: net.bootsfaces.listeners.AddResourcesListener ready for use.
+giu 17, 2015 3:11:10 PM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFORMAZIONI: MyFaces Bean Validation support enabled
+giu 17, 2015 3:11:10 PM org.apache.myfaces.application.ApplicationImpl getProjectStage
+INFORMAZIONI: Couldn't discover the current project stage, using Production
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFORMAZIONI: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+giu 17, 2015 3:11:10 PM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFORMAZIONI: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+giu 17, 2015 3:11:10 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMAZIONI: Running on PrimeFaces 5.2
+giu 17, 2015 3:11:10 PM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFORMAZIONI: ServletContext initialized.
+giu 17, 2015 3:11:10 PM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFORMAZIONI: MyFaces Unified EL support enabled
+giu 17, 2015 3:11:10 PM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFORMAZIONI: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+giu 17, 2015 3:11:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\aaa.war has finished in 9,758 ms
+giu 17, 2015 3:11:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala.war
+giu 17, 2015 3:11:11 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /lalala
+giu 17, 2015 3:11:11 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala.war
+giu 17, 2015 3:11:11 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb facadeOrdine: EjbDeployment(deployment-id=facadeOrdine)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb facadeFornitore: EjbDeployment(deployment-id=facadeFornitore)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb facadeCliente: EjbDeployment(deployment-id=facadeCliente)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb facadeProdotto: EjbDeployment(deployment-id=facadeProdotto)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=lalala/PostgreSQL Database, type=Resource, provider-id=Default JDBC Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFORMAZIONI: Disabling testOnBorrow since no validation query is provided
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/lalala/PostgreSQL Database' in bean facadeOrdine to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/PostgreSQL Database' in bean facadeOrdine to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/lalala/PostgreSQL Database' in bean facadeFornitore to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/PostgreSQL Database' in bean facadeFornitore to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/lalala/PostgreSQL Database' in bean facadeCliente to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/PostgreSQL Database' in bean facadeCliente to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/lalala/PostgreSQL Database' in bean facadeProdotto to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/PostgreSQL Database' in bean facadeProdotto to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring PersistenceUnit(name=unit-progetto, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFORMAZIONI: Auto-creating a Resource with id 'lalala/PostgreSQL DatabaseNonJta' of type 'DataSource for 'unit-progetto'.
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring Service(id=lalala/PostgreSQL DatabaseNonJta, type=Resource, provider-id=lalala/PostgreSQL Database)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=lalala/PostgreSQL DatabaseNonJta)
+giu 17, 2015 3:11:11 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFORMAZIONI: Disabling testOnBorrow since no validation query is provided
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit unit-progetto <jta-data-source> to Resource ID 'lalala/PostgreSQL Database' from 'PostgreSQL Database'
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit unit-progetto <non-jta-data-source> to Resource ID 'lalala/PostgreSQL DatabaseNonJta' from 'null'
+giu 17, 2015 3:11:11 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala" loaded.
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala
+giu 17, 2015 3:11:11 PM null
+INFORMAZIONI: OpenJPA dynamically loaded a validation provider.
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFORMAZIONI: PersistenceUnit(name=unit-progetto, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 21ms
+giu 17, 2015 3:11:11 PM null
+AVVERTENZA: The type "it.uniroma3.model.Cliente" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:11:11 PM null
+AVVERTENZA: The type "it.uniroma3.model.Ordine" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:11:11 PM null
+AVVERTENZA: The type "it.uniroma3.model.Fornitore" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:11:11 PM null
+AVVERTENZA: The type "it.uniroma3.model.Indirizzo" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=facadeOrdineLocalBean) --> Ejb(deployment-id=facadeOrdine)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeOrdine!it.uniroma3.model.FacadeOrdine) --> Ejb(deployment-id=facadeOrdine)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeOrdine) --> Ejb(deployment-id=facadeOrdine)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=facadeFornitoreLocalBean) --> Ejb(deployment-id=facadeFornitore)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeFornitore!it.uniroma3.model.FacadeFornitore) --> Ejb(deployment-id=facadeFornitore)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeFornitore) --> Ejb(deployment-id=facadeFornitore)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=facadeClienteLocalBean) --> Ejb(deployment-id=facadeCliente)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeCliente!it.uniroma3.model.FacadeCliente) --> Ejb(deployment-id=facadeCliente)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeCliente) --> Ejb(deployment-id=facadeCliente)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=facadeProdottoLocalBean) --> Ejb(deployment-id=facadeProdotto)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeProdotto!it.uniroma3.model.FacadeProdotto) --> Ejb(deployment-id=facadeProdotto)
+giu 17, 2015 3:11:11 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeProdotto) --> Ejb(deployment-id=facadeProdotto)
+giu 17, 2015 3:11:11 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:11 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:11:11 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:11:11 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:11:11 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:11:11 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 92 ms.
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=facadeProdotto, ejb-name=facadeProdotto, container=Default Stateless Container)
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=facadeOrdine, ejb-name=facadeOrdine, container=Default Stateless Container)
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=facadeFornitore, ejb-name=facadeFornitore, container=Default Stateless Container)
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=facadeCliente, ejb-name=facadeCliente, container=Default Stateless Container)
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=facadeProdotto, ejb-name=facadeProdotto, container=Default Stateless Container)
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=facadeOrdine, ejb-name=facadeOrdine, container=Default Stateless Container)
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=facadeFornitore, ejb-name=facadeFornitore, container=Default Stateless Container)
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=facadeCliente, ejb-name=facadeCliente, container=Default Stateless Container)
+giu 17, 2015 3:11:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala)
+giu 17, 2015 3:11:12 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFORMAZIONI: Reading standard config META-INF/standard-faces-config.xml
+giu 17, 2015 3:11:12 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFORMAZIONI: Reading config /WEB-INF/faces-config.xml
+giu 17, 2015 3:11:12 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:12 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:12 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-api' was found in version '2.2.9-20150520.131754-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-api-2.2.9-20150520.131754-76.jar'
+giu 17, 2015 3:11:12 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-impl' was found in version '2.2.9-20150520.132004-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-impl-2.2.9-20150520.132004-76.jar'
+giu 17, 2015 3:11:12 PM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFORMAZIONI: MyFaces CDI support enabled
+giu 17, 2015 3:11:12 PM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFORMAZIONI: Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+giu 17, 2015 3:11:12 PM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFORMAZIONI: MyFaces Bean Validation support enabled
+giu 17, 2015 3:11:12 PM org.apache.myfaces.application.ApplicationImpl getProjectStage
+INFORMAZIONI: Couldn't discover the current project stage, using Production
+giu 17, 2015 3:11:12 PM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFORMAZIONI: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+giu 17, 2015 3:11:12 PM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFORMAZIONI: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+giu 17, 2015 3:11:12 PM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFORMAZIONI: ServletContext initialized.
+giu 17, 2015 3:11:12 PM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFORMAZIONI: MyFaces Unified EL support enabled
+giu 17, 2015 3:11:12 PM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFORMAZIONI: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+giu 17, 2015 3:11:12 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala.war has finished in 1,739 ms
+giu 17, 2015 3:11:12 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws.war
+giu 17, 2015 3:11:12 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /paws-and-claws
+giu 17, 2015 3:11:13 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb couponFacade: EjbDeployment(deployment-id=couponFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb oFacade: EjbDeployment(deployment-id=oFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb fFacade: EjbDeployment(deployment-id=fFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb pFacade: EjbDeployment(deployment-id=pFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb aFacade: EjbDeployment(deployment-id=aFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb uFacade: EjbDeployment(deployment-id=uFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.AutoConfig createContainer
+INFORMAZIONI: Auto-creating a container for bean paws-and-claws.Comp213259602: Container(type=MANAGED, id=Default Managed Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Container(id=Default Managed Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.core.managed.SimplePassivater init
+INFORMAZIONI: Using directory C:\Program Files\apache-tomee-jaxrs-1.7.1\temp for stateful session passivation
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring PersistenceUnit(name=model-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit model-unit <non-jta-data-source> to Resource ID 'PostgreSQL DatabaseNonJta' from 'null'
+giu 17, 2015 3:11:14 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws" loaded.
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws
+giu 17, 2015 3:11:14 PM null
+INFORMAZIONI: OpenJPA dynamically loaded a validation provider.
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFORMAZIONI: PersistenceUnit(name=model-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 27ms
+giu 17, 2015 3:11:14 PM null
+AVVERTENZA: The type "models.Ordine" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=couponFacadeLocalBean) --> Ejb(deployment-id=couponFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/couponFacade!facades.CouponFacade) --> Ejb(deployment-id=couponFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/couponFacade) --> Ejb(deployment-id=couponFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=oFacadeLocalBean) --> Ejb(deployment-id=oFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/oFacade!facades.OrdineFacade) --> Ejb(deployment-id=oFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/oFacade) --> Ejb(deployment-id=oFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=fFacadeLocalBean) --> Ejb(deployment-id=fFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/fFacade!facades.FornitoreFacade) --> Ejb(deployment-id=fFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/fFacade) --> Ejb(deployment-id=fFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=pFacadeLocalBean) --> Ejb(deployment-id=pFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/pFacade!facades.ProdottoFacade) --> Ejb(deployment-id=pFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/pFacade) --> Ejb(deployment-id=pFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=aFacadeLocalBean) --> Ejb(deployment-id=aFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/aFacade!facades.AmministratoreFacade) --> Ejb(deployment-id=aFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/aFacade) --> Ejb(deployment-id=aFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=uFacadeLocalBean) --> Ejb(deployment-id=uFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/uFacade!facades.UtenteFacade) --> Ejb(deployment-id=uFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/paws-and-claws/uFacade) --> Ejb(deployment-id=uFacade)
+giu 17, 2015 3:11:14 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:14 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:11:14 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:11:14 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:11:14 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:11:14 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 451 ms.
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=fFacade, ejb-name=fFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=oFacade, ejb-name=oFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=couponFacade, ejb-name=couponFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=pFacade, ejb-name=pFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=aFacade, ejb-name=aFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=uFacade, ejb-name=uFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=fFacade, ejb-name=fFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=oFacade, ejb-name=oFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=couponFacade, ejb-name=couponFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=pFacade, ejb-name=pFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=aFacade, ejb-name=aFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=uFacade, ejb-name=uFacade, container=Default Stateless Container)
+giu 17, 2015 3:11:14 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws)
+giu 17, 2015 3:11:15 PM org.omnifaces.ApplicationInitializer logOmniFacesVersion
+INFORMAZIONI: Using OmniFaces version 2.1
+giu 17, 2015 3:11:15 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFORMAZIONI: Reading standard config META-INF/standard-faces-config.xml
+giu 17, 2015 3:11:15 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFORMAZIONI: Reading config /WEB-INF/faces-config.xml
+giu 17, 2015 3:11:15 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:15 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/paws-and-claws/WEB-INF/lib/primefaces-5.2.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:15 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:15 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMAZIONI: Reading config : jar:file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/webapps/paws-and-claws/WEB-INF/lib/omnifaces-2.1.jar!/META-INF/faces-config.xml
+giu 17, 2015 3:11:16 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-api' was found in version '2.2.9-20150520.131754-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-api-2.2.9-20150520.131754-76.jar'
+giu 17, 2015 3:11:16 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMAZIONI: Artifact 'myfaces-impl' was found in version '2.2.9-20150520.132004-76' from path 'file:/C:/Program%20Files/apache-tomee-jaxrs-1.7.1/lib/myfaces-impl-2.2.9-20150520.132004-76.jar'
+giu 17, 2015 3:11:16 PM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFORMAZIONI: Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+giu 17, 2015 3:11:16 PM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFORMAZIONI: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+giu 17, 2015 3:11:16 PM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFORMAZIONI: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+giu 17, 2015 3:11:16 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMAZIONI: Running on PrimeFaces 5.2
+giu 17, 2015 3:11:16 PM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFORMAZIONI: ServletContext initialized.
+giu 17, 2015 3:11:16 PM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFORMAZIONI: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+giu 17, 2015 3:11:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\paws-and-claws.war has finished in 3,538 ms
+giu 17, 2015 3:11:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+giu 17, 2015 3:11:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /docs
+giu 17, 2015 3:11:16 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+giu 17, 2015 3:11:16 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs" loaded.
+giu 17, 2015 3:11:16 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:11:16 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:11:16 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:11:16 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 14 ms.
+giu 17, 2015 3:11:16 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs)
+giu 17, 2015 3:11:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\docs has finished in 157 ms
+giu 17, 2015 3:11:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+giu 17, 2015 3:11:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /host-manager
+giu 17, 2015 3:11:16 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+giu 17, 2015 3:11:16 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager" loaded.
+giu 17, 2015 3:11:16 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:11:16 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:11:16 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:11:16 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 14 ms.
+giu 17, 2015 3:11:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager\META-INF\context.xml
+giu 17, 2015 3:11:16 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager)
+giu 17, 2015 3:11:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\host-manager has finished in 255 ms
+giu 17, 2015 3:11:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+giu 17, 2015 3:11:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /manager
+giu 17, 2015 3:11:16 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+giu 17, 2015 3:11:16 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager" loaded.
+giu 17, 2015 3:11:16 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:11:16 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:11:16 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:11:16 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:11:16 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 14 ms.
+giu 17, 2015 3:11:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFORMAZIONI: using context file C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager\META-INF\context.xml
+giu 17, 2015 3:11:16 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager)
+giu 17, 2015 3:11:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\manager has finished in 199 ms
+giu 17, 2015 3:11:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+giu 17, 2015 3:11:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /
+giu 17, 2015 3:11:17 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+giu 17, 2015 3:11:17 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT" loaded.
+giu 17, 2015 3:11:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT
+giu 17, 2015 3:11:17 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:11:17 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:11:17 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:11:17 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:11:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 14 ms.
+giu 17, 2015 3:11:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT)
+giu 17, 2015 3:11:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\ROOT has finished in 141 ms
+giu 17, 2015 3:11:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+giu 17, 2015 3:11:17 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /tomee
+giu 17, 2015 3:11:17 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+giu 17, 2015 3:11:17 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee" loaded.
+giu 17, 2015 3:11:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee
+giu 17, 2015 3:11:17 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:11:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:11:17 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:11:17 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:11:17 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:11:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 13 ms.
+giu 17, 2015 3:11:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee)
+giu 17, 2015 3:11:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\tomee has finished in 226 ms
+giu 17, 2015 3:11:17 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["http-bio-8080"]
+giu 17, 2015 3:11:17 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["ajp-bio-8009"]
+giu 17, 2015 3:11:17 PM org.apache.catalina.startup.Catalina start
+INFORMAZIONI: Server startup in 16118 ms
+giu 17, 2015 3:16:08 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMAZIONI: Undeploying context [/lalala]
+giu 17, 2015 3:16:08 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMAZIONI: Undeploying app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala
+giu 17, 2015 3:16:08 PM org.apache.openejb.assembler.classic.Assembler destroyResource
+INFORMAZIONI: Closing DataSource: lalala/PostgreSQL Database
+giu 17, 2015 3:16:08 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deploying web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala.war
+giu 17, 2015 3:16:08 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMAZIONI: ------------------------- localhost -> /lalala
+giu 17, 2015 3:16:09 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracting jar: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala.war
+giu 17, 2015 3:16:09 PM org.apache.openejb.util.JarExtractor extract
+INFORMAZIONI: Extracted path: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMAZIONI: Configuring enterprise application: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb facadeFornitore: EjbDeployment(deployment-id=facadeFornitore)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb facadeCliente: EjbDeployment(deployment-id=facadeCliente)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb facadeOrdine: EjbDeployment(deployment-id=facadeOrdine)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMAZIONI: Auto-deploying ejb facadeProdotto: EjbDeployment(deployment-id=facadeProdotto)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMAZIONI: Configuring Service(id=lalala/PostgreSQL Database, type=Resource, provider-id=Default JDBC Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMAZIONI: Creating Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFORMAZIONI: Disabling testOnBorrow since no validation query is provided
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/lalala/PostgreSQL Database' in bean facadeFornitore to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/PostgreSQL Database' in bean facadeFornitore to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/lalala/PostgreSQL Database' in bean facadeCliente to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/PostgreSQL Database' in bean facadeCliente to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/lalala/PostgreSQL Database' in bean facadeOrdine to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/PostgreSQL Database' in bean facadeOrdine to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/lalala/PostgreSQL Database' in bean facadeProdotto to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig processResourceRef
+INFORMAZIONI: Auto-linking resource-ref 'openejb/Resource/PostgreSQL Database' in bean facadeProdotto to Resource(id=lalala/PostgreSQL Database)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig deploy
+INFORMAZIONI: Configuring PersistenceUnit(name=unit-progetto, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit unit-progetto <jta-data-source> to Resource ID 'lalala/PostgreSQL Database' from 'PostgreSQL Database'
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFORMAZIONI: Adjusting PersistenceUnit unit-progetto <non-jta-data-source> to Resource ID 'lalala/PostgreSQL DatabaseNonJta' from 'null'
+giu 17, 2015 3:16:09 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMAZIONI: Enterprise application "C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala" loaded.
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Assembling app: C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala
+giu 17, 2015 3:16:09 PM null
+INFORMAZIONI: OpenJPA dynamically loaded a validation provider.
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFORMAZIONI: PersistenceUnit(name=unit-progetto, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 16ms
+giu 17, 2015 3:16:09 PM null
+AVVERTENZA: The type "it.uniroma3.model.Fornitore" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:16:09 PM null
+AVVERTENZA: The type "it.uniroma3.model.Indirizzo" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:16:09 PM null
+AVVERTENZA: The type "it.uniroma3.model.Cliente" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:16:09 PM null
+AVVERTENZA: The type "it.uniroma3.model.Ordine" must have a no-args constructor. Adding a public no-args constructor.
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=facadeFornitoreLocalBean) --> Ejb(deployment-id=facadeFornitore)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeFornitore!it.uniroma3.model.FacadeFornitore) --> Ejb(deployment-id=facadeFornitore)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeFornitore) --> Ejb(deployment-id=facadeFornitore)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=facadeClienteLocalBean) --> Ejb(deployment-id=facadeCliente)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeCliente!it.uniroma3.model.FacadeCliente) --> Ejb(deployment-id=facadeCliente)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeCliente) --> Ejb(deployment-id=facadeCliente)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=facadeOrdineLocalBean) --> Ejb(deployment-id=facadeOrdine)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeOrdine!it.uniroma3.model.FacadeOrdine) --> Ejb(deployment-id=facadeOrdine)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeOrdine) --> Ejb(deployment-id=facadeOrdine)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=facadeProdottoLocalBean) --> Ejb(deployment-id=facadeProdotto)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeProdotto!it.uniroma3.model.FacadeProdotto) --> Ejb(deployment-id=facadeProdotto)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMAZIONI: Jndi(name=global/lalala/facadeProdotto) --> Ejb(deployment-id=facadeProdotto)
+giu 17, 2015 3:16:09 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMAZIONI: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@290dbf45
+giu 17, 2015 3:16:09 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container is starting...
+giu 17, 2015 3:16:09 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [CdiPlugin]
+giu 17, 2015 3:16:09 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMAZIONI: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+giu 17, 2015 3:16:09 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMAZIONI: All injection points were validated successfully.
+giu 17, 2015 3:16:09 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMAZIONI: OpenWebBeans Container has started, it took 20 ms.
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=facadeProdotto, ejb-name=facadeProdotto, container=Default Stateless Container)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=facadeFornitore, ejb-name=facadeFornitore, container=Default Stateless Container)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=facadeOrdine, ejb-name=facadeOrdine, container=Default Stateless Container)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Created Ejb(deployment-id=facadeCliente, ejb-name=facadeCliente, container=Default Stateless Container)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=facadeProdotto, ejb-name=facadeProdotto, container=Default Stateless Container)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=facadeFornitore, ejb-name=facadeFornitore, container=Default Stateless Container)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=facadeOrdine, ejb-name=facadeOrdine, container=Default Stateless Container)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMAZIONI: Started Ejb(deployment-id=facadeCliente, ejb-name=facadeCliente, container=Default Stateless Container)
+giu 17, 2015 3:16:09 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMAZIONI: Deployed Application(path=C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala)
+giu 17, 2015 3:16:09 PM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFORMAZIONI: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+giu 17, 2015 3:16:09 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAZIONI: Deployment of web application archive C:\Program Files\apache-tomee-jaxrs-1.7.1\webapps\lalala.war has finished in 935 ms

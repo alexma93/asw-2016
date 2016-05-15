@@ -1,0 +1,2020 @@
+May 10, 2016 12:14:13 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 10, 2016 12:14:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 10, 2016 12:14:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 10, 2016 12:14:18 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+May 10, 2016 12:14:18 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+May 10, 2016 12:14:18 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+May 10, 2016 12:14:18 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Tue May 10 12:14:18 UTC 2016
+May 10, 2016 12:14:18 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+May 10, 2016 12:14:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.1
+May 10, 2016 12:14:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20140912
+May 10, 2016 12:14:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 01:43
+May 10, 2016 12:14:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+May 10, 2016 12:14:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /home/vagrant/applicazione
+May 10, 2016 12:14:19 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /home/vagrant/applicazione
+May 10, 2016 12:14:19 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:14:19 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+May 10, 2016 12:14:19 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/home/vagrant/applicazione/conf/tomee.xml'
+May 10, 2016 12:14:19 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+May 10, 2016 12:14:19 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+May 10, 2016 12:14:19 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=PostgreSQL Database, type=Resource, provider-id=Default JDBC Database)
+May 10, 2016 12:14:19 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+May 10, 2016 12:14:19 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: openejb
+May 10, 2016 12:14:20 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+May 10, 2016 12:14:20 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+May 10, 2016 12:14:20 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+May 10, 2016 12:14:20 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+May 10, 2016 12:14:20 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+May 10, 2016 12:14:20 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+May 10, 2016 12:14:20 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+May 10, 2016 12:14:20 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+May 10, 2016 12:14:20 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+May 10, 2016 12:14:20 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=PostgreSQL Database)
+May 10, 2016 12:14:21 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFO: Disabling testOnBorrow since no validation query is provided
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+May 10, 2016 12:14:21 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+May 10, 2016 12:14:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+May 10, 2016 12:14:22 PM org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+May 10, 2016 12:14:22 PM org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+May 10, 2016 12:14:22 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+May 10, 2016 12:14:22 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+May 10, 2016 12:14:22 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+May 10, 2016 12:14:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 10318 ms
+May 10, 2016 12:14:22 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+May 10, 2016 12:14:22 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+May 10, 2016 12:14:22 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 10, 2016 12:14:22 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+May 10, 2016 12:14:23 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/applicazione/webapps/paws-and-claws.war
+May 10, 2016 12:14:23 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /paws-and-claws
+May 10, 2016 12:14:27 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/paws-and-claws
+May 10, 2016 12:14:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb pFacade: EjbDeployment(deployment-id=pFacade)
+May 10, 2016 12:14:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb fFacade: EjbDeployment(deployment-id=fFacade)
+May 10, 2016 12:14:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb couponFacade: EjbDeployment(deployment-id=couponFacade)
+May 10, 2016 12:14:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb aFacade: EjbDeployment(deployment-id=aFacade)
+May 10, 2016 12:14:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb oFacade: EjbDeployment(deployment-id=oFacade)
+May 10, 2016 12:14:34 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb uFacade: EjbDeployment(deployment-id=uFacade)
+May 10, 2016 12:14:35 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+May 10, 2016 12:14:35 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean paws-and-claws.Comp269254960: Container(type=MANAGED, id=Default Managed Container)
+May 10, 2016 12:14:35 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+May 10, 2016 12:14:35 PM org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /home/vagrant/applicazione/temp for stateful session passivation
+May 10, 2016 12:14:35 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=model-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+May 10, 2016 12:14:35 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'PostgreSQL DatabaseNonJta' of type 'DataSource for 'model-unit'.
+May 10, 2016 12:14:35 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring Service(id=PostgreSQL DatabaseNonJta, type=Resource, provider-id=PostgreSQL Database)
+May 10, 2016 12:14:35 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=PostgreSQL DatabaseNonJta)
+May 10, 2016 12:14:35 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFO: Disabling testOnBorrow since no validation query is provided
+May 10, 2016 12:14:35 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit model-unit <non-jta-data-source> to Resource ID 'PostgreSQL DatabaseNonJta' from 'null'
+May 10, 2016 12:14:35 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/paws-and-claws" loaded.
+May 10, 2016 12:14:35 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/paws-and-claws
+May 10, 2016 12:14:37 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 10, 2016 12:14:37 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=model-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 2065ms
+May 10, 2016 12:14:39 PM null
+WARNING: The type "models.Ordine" must have a no-args constructor. Adding a public no-args constructor.
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=pFacadeLocalBean) --> Ejb(deployment-id=pFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/pFacade!facades.ProdottoFacade) --> Ejb(deployment-id=pFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/pFacade) --> Ejb(deployment-id=pFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=fFacadeLocalBean) --> Ejb(deployment-id=fFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/fFacade!facades.FornitoreFacade) --> Ejb(deployment-id=fFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/fFacade) --> Ejb(deployment-id=fFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=couponFacadeLocalBean) --> Ejb(deployment-id=couponFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/couponFacade!facades.CouponFacade) --> Ejb(deployment-id=couponFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/couponFacade) --> Ejb(deployment-id=couponFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=aFacadeLocalBean) --> Ejb(deployment-id=aFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/aFacade!facades.AmministratoreFacade) --> Ejb(deployment-id=aFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/aFacade) --> Ejb(deployment-id=aFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=oFacadeLocalBean) --> Ejb(deployment-id=oFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/oFacade!facades.OrdineFacade) --> Ejb(deployment-id=oFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/oFacade) --> Ejb(deployment-id=oFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=uFacadeLocalBean) --> Ejb(deployment-id=uFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/uFacade!facades.UtenteFacade) --> Ejb(deployment-id=uFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/uFacade) --> Ejb(deployment-id=uFacade)
+May 10, 2016 12:14:39 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:14:40 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:14:40 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:14:40 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:14:44 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:14:44 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 4261 ms.
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=fFacade, ejb-name=fFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=oFacade, ejb-name=oFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=couponFacade, ejb-name=couponFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=pFacade, ejb-name=pFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=aFacade, ejb-name=aFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=uFacade, ejb-name=uFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=fFacade, ejb-name=fFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=oFacade, ejb-name=oFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=couponFacade, ejb-name=couponFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=pFacade, ejb-name=pFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=aFacade, ejb-name=aFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=uFacade, ejb-name=uFacade, container=Default Stateless Container)
+May 10, 2016 12:14:44 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/paws-and-claws)
+May 10, 2016 12:14:47 PM org.omnifaces.ApplicationInitializer logOmniFacesVersion
+INFO: Using OmniFaces version 2.1
+May 10, 2016 12:14:48 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+May 10, 2016 12:14:49 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFO: Reading config /WEB-INF/faces-config.xml
+May 10, 2016 12:14:49 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/vagrant/applicazione/webapps/paws-and-claws/WEB-INF/lib/primefaces-5.2.jar!/META-INF/faces-config.xml
+May 10, 2016 12:14:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/vagrant/applicazione/webapps/paws-and-claws/WEB-INF/lib/omnifaces-2.1.jar!/META-INF/faces-config.xml
+May 10, 2016 12:14:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/vagrant/applicazione/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+May 10, 2016 12:14:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/vagrant/applicazione/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+May 10, 2016 12:14:51 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.2.9-20150520.131754-76' from path 'file:/home/vagrant/applicazione/lib/myfaces-api-2.2.9-20150520.131754-76.jar'
+May 10, 2016 12:14:51 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.2.9-20150520.132004-76' from path 'file:/home/vagrant/applicazione/lib/myfaces-impl-2.2.9-20150520.132004-76.jar'
+May 10, 2016 12:14:51 PM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFO: MyFaces CDI support enabled
+May 10, 2016 12:14:51 PM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFO: Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+May 10, 2016 12:14:51 PM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support enabled
+May 10, 2016 12:14:52 PM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+May 10, 2016 12:14:52 PM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+May 10, 2016 12:14:52 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces 5.2
+May 10, 2016 12:14:52 PM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+May 10, 2016 12:14:52 PM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFO: MyFaces Unified EL support enabled
+May 10, 2016 12:14:52 PM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFO: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+May 10, 2016 12:14:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/applicazione/webapps/paws-and-claws.war has finished in 30,543 ms
+May 10, 2016 12:14:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/docs
+May 10, 2016 12:14:53 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /docs
+May 10, 2016 12:14:54 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/docs
+May 10, 2016 12:14:54 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/docs" loaded.
+May 10, 2016 12:14:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/docs
+May 10, 2016 12:14:54 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:14:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:14:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:14:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:14:54 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:14:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 59 ms.
+May 10, 2016 12:14:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/docs)
+May 10, 2016 12:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/docs has finished in 1,325 ms
+May 10, 2016 12:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/host-manager
+May 10, 2016 12:14:54 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /host-manager
+May 10, 2016 12:14:55 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/host-manager
+May 10, 2016 12:14:55 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/host-manager" loaded.
+May 10, 2016 12:14:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/host-manager
+May 10, 2016 12:14:55 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:14:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:14:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:14:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:14:55 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:14:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 37 ms.
+May 10, 2016 12:14:55 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /home/vagrant/applicazione/webapps/host-manager/META-INF/context.xml
+May 10, 2016 12:14:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/host-manager)
+May 10, 2016 12:14:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/host-manager has finished in 1,112 ms
+May 10, 2016 12:14:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/manager
+May 10, 2016 12:14:56 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /manager
+May 10, 2016 12:14:56 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/manager
+May 10, 2016 12:14:56 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/manager" loaded.
+May 10, 2016 12:14:56 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/manager
+May 10, 2016 12:14:56 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:14:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:14:57 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:14:57 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:14:57 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:14:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 90 ms.
+May 10, 2016 12:14:57 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /home/vagrant/applicazione/webapps/manager/META-INF/context.xml
+May 10, 2016 12:14:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/manager)
+May 10, 2016 12:14:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/manager has finished in 1,738 ms
+May 10, 2016 12:14:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/ROOT
+May 10, 2016 12:14:57 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /
+May 10, 2016 12:14:58 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/ROOT
+May 10, 2016 12:14:58 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/ROOT" loaded.
+May 10, 2016 12:14:58 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/ROOT
+May 10, 2016 12:14:58 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:14:58 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:14:58 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:14:58 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:14:58 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:14:58 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 107 ms.
+May 10, 2016 12:14:58 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/ROOT)
+May 10, 2016 12:14:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/ROOT has finished in 1,042 ms
+May 10, 2016 12:14:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/tomee
+May 10, 2016 12:14:58 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /tomee
+May 10, 2016 12:14:59 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/tomee
+May 10, 2016 12:14:59 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/tomee" loaded.
+May 10, 2016 12:14:59 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/tomee
+May 10, 2016 12:14:59 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:14:59 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:14:59 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:14:59 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:14:59 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:14:59 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 80 ms.
+May 10, 2016 12:14:59 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/tomee)
+May 10, 2016 12:14:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/tomee has finished in 1,033 ms
+May 10, 2016 12:14:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 10, 2016 12:14:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 10, 2016 12:14:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 37050 ms
+May 10, 2016 12:15:08 PM null
+INFO: Starting OpenJPA 2.4.0-nonfinal-1598334
+May 10, 2016 12:15:08 PM org.apache.openejb.core.transaction.EjbTransactionUtil handleSystemException
+SEVERE: EjbTransactionUtil.handleSystemException: Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+<openjpa-2.4.0-nonfinal-1598334-r422266:1599166 fatal general error> org.apache.openjpa.persistence.PersistenceException: Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.apache.openjpa.jdbc.sql.DBDictionaryFactory.newDBDictionary(DBDictionaryFactory.java:107)
+	at org.apache.openjpa.jdbc.conf.JDBCConfigurationImpl.getDBDictionaryInstance(JDBCConfigurationImpl.java:603)
+	at org.apache.openjpa.jdbc.meta.MappingRepository.endConfiguration(MappingRepository.java:1518)
+	at org.apache.openjpa.lib.conf.Configurations.configureInstance(Configurations.java:535)
+	at org.apache.openjpa.lib.conf.Configurations.configureInstance(Configurations.java:460)
+	at org.apache.openjpa.lib.conf.PluginValue.instantiate(PluginValue.java:121)
+	at org.apache.openjpa.conf.MetaDataRepositoryValue.instantiate(MetaDataRepositoryValue.java:68)
+	at org.apache.openjpa.lib.conf.ObjectValue.instantiate(ObjectValue.java:83)
+	at org.apache.openjpa.conf.OpenJPAConfigurationImpl.newMetaDataRepositoryInstance(OpenJPAConfigurationImpl.java:967)
+	at org.apache.openjpa.conf.OpenJPAConfigurationImpl.getMetaDataRepositoryInstance(OpenJPAConfigurationImpl.java:958)
+	at org.apache.openjpa.kernel.AbstractBrokerFactory.makeReadOnly(AbstractBrokerFactory.java:642)
+	at org.apache.openjpa.kernel.AbstractBrokerFactory.newBroker(AbstractBrokerFactory.java:202)
+	at org.apache.openjpa.kernel.DelegatingBrokerFactory.newBroker(DelegatingBrokerFactory.java:155)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:226)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:59)
+	at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:160)
+	at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:119)
+	at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:96)
+	at org.apache.openejb.persistence.JtaEntityManager.typedProxyIfNoTx(JtaEntityManager.java:333)
+	at org.apache.openejb.persistence.JtaEntityManager.createQuery(JtaEntityManager.java:405)
+	at facades.ProdottoFacade.getProdotti(ProdottoFacade.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.openejb.core.interceptor.ReflectionInvocationContext$Invocation.invoke(ReflectionInvocationContext.java:192)
+	at org.apache.openejb.core.interceptor.ReflectionInvocationContext.proceed(ReflectionInvocationContext.java:173)
+	at org.apache.openejb.monitoring.StatsInterceptor.record(StatsInterceptor.java:181)
+	at org.apache.openejb.monitoring.StatsInterceptor.invoke(StatsInterceptor.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.openejb.core.interceptor.ReflectionInvocationContext$Invocation.invoke(ReflectionInvocationContext.java:192)
+	at org.apache.openejb.core.interceptor.ReflectionInvocationContext.proceed(ReflectionInvocationContext.java:173)
+	at org.apache.openejb.core.interceptor.InterceptorStack.invoke(InterceptorStack.java:85)
+	at org.apache.openejb.core.stateless.StatelessContainer._invoke(StatelessContainer.java:227)
+	at org.apache.openejb.core.stateless.StatelessContainer.invoke(StatelessContainer.java:194)
+	at org.apache.openejb.core.ivm.EjbObjectProxyHandler.synchronizedBusinessMethod(EjbObjectProxyHandler.java:308)
+	at org.apache.openejb.core.ivm.EjbObjectProxyHandler.businessMethod(EjbObjectProxyHandler.java:303)
+	at org.apache.openejb.core.ivm.EjbObjectProxyHandler._invoke(EjbObjectProxyHandler.java:92)
+	at org.apache.openejb.core.ivm.BaseEjbProxyHandler.invoke(BaseEjbProxyHandler.java:308)
+	at facades.ProdottoFacade$$LocalBeanProxy.getProdotti(facades/ProdottoFacade.java)
+	at controllers.CatalogoController.inizializza(CatalogoController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:278)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at org.apache.myfaces.view.facelets.el.ContextAwareTagMethodExpression.invoke(ContextAwareTagMethodExpression.java:96)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:74)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:120)
+	at javax.faces.component.UIViewRoot._broadcastAll(UIViewRoot.java:1172)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:365)
+	at javax.faces.component.UIViewRoot._process(UIViewRoot.java:1658)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:862)
+	at org.apache.myfaces.lifecycle.InvokeApplicationExecutor.execute(InvokeApplicationExecutor.java:42)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.executePhase(LifecycleImpl.java:196)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:143)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:198)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.postgresql.util.PSQLException: Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:136)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:397)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:188)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:128)
+	at org.apache.openejb.resource.jdbc.managed.local.ManagedDataSource.getConnection(ManagedDataSource.java:52)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:110)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:87)
+	at org.apache.openjpa.jdbc.sql.DBDictionaryFactory.newDBDictionary(DBDictionaryFactory.java:91)
+	... 81 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	... 99 more
+
+May 10, 2016 12:20:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 10, 2016 12:20:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 10, 2016 12:20:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 10, 2016 12:20:26 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Tue May 10 12:20:27 UTC 2016
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.1
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20140912
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 01:43
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /home/vagrant/applicazione
+May 10, 2016 12:20:27 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /home/vagrant/applicazione
+May 10, 2016 12:20:27 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:20:27 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+May 10, 2016 12:20:27 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/home/vagrant/applicazione/conf/tomee.xml'
+May 10, 2016 12:20:27 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+May 10, 2016 12:20:27 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+May 10, 2016 12:20:27 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=PostgreSQL Database, type=Resource, provider-id=Default JDBC Database)
+May 10, 2016 12:20:27 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+May 10, 2016 12:20:27 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: openejb
+May 10, 2016 12:20:28 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+May 10, 2016 12:20:28 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+May 10, 2016 12:20:28 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+May 10, 2016 12:20:28 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+May 10, 2016 12:20:28 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+May 10, 2016 12:20:28 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+May 10, 2016 12:20:28 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=PostgreSQL Database)
+May 10, 2016 12:20:28 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFO: Disabling testOnBorrow since no validation query is provided
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+May 10, 2016 12:20:28 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+May 10, 2016 12:20:28 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+May 10, 2016 12:20:29 PM org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+May 10, 2016 12:20:29 PM org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+May 10, 2016 12:20:29 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+May 10, 2016 12:20:29 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+May 10, 2016 12:20:29 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+May 10, 2016 12:20:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 6838 ms
+May 10, 2016 12:20:29 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+May 10, 2016 12:20:29 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+May 10, 2016 12:20:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 10, 2016 12:20:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+May 10, 2016 12:20:30 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/applicazione/webapps/paws-and-claws.war
+May 10, 2016 12:20:30 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /paws-and-claws
+May 10, 2016 12:20:35 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/paws-and-claws
+May 10, 2016 12:20:41 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb aFacade: EjbDeployment(deployment-id=aFacade)
+May 10, 2016 12:20:41 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb fFacade: EjbDeployment(deployment-id=fFacade)
+May 10, 2016 12:20:41 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb pFacade: EjbDeployment(deployment-id=pFacade)
+May 10, 2016 12:20:41 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb oFacade: EjbDeployment(deployment-id=oFacade)
+May 10, 2016 12:20:41 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb uFacade: EjbDeployment(deployment-id=uFacade)
+May 10, 2016 12:20:41 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb couponFacade: EjbDeployment(deployment-id=couponFacade)
+May 10, 2016 12:20:41 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+May 10, 2016 12:20:41 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean paws-and-claws.Comp191204357: Container(type=MANAGED, id=Default Managed Container)
+May 10, 2016 12:20:41 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+May 10, 2016 12:20:41 PM org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /home/vagrant/applicazione/temp for stateful session passivation
+May 10, 2016 12:20:41 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=model-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+May 10, 2016 12:20:41 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'PostgreSQL DatabaseNonJta' of type 'DataSource for 'model-unit'.
+May 10, 2016 12:20:41 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring Service(id=PostgreSQL DatabaseNonJta, type=Resource, provider-id=PostgreSQL Database)
+May 10, 2016 12:20:41 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=PostgreSQL DatabaseNonJta)
+May 10, 2016 12:20:41 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFO: Disabling testOnBorrow since no validation query is provided
+May 10, 2016 12:20:41 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit model-unit <non-jta-data-source> to Resource ID 'PostgreSQL DatabaseNonJta' from 'null'
+May 10, 2016 12:20:41 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/paws-and-claws" loaded.
+May 10, 2016 12:20:41 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/paws-and-claws
+May 10, 2016 12:20:41 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 10, 2016 12:20:41 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=model-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 624ms
+May 10, 2016 12:20:43 PM null
+WARNING: The type "models.Ordine" must have a no-args constructor. Adding a public no-args constructor.
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=aFacadeLocalBean) --> Ejb(deployment-id=aFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/aFacade!facades.AmministratoreFacade) --> Ejb(deployment-id=aFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/aFacade) --> Ejb(deployment-id=aFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=fFacadeLocalBean) --> Ejb(deployment-id=fFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/fFacade!facades.FornitoreFacade) --> Ejb(deployment-id=fFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/fFacade) --> Ejb(deployment-id=fFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=pFacadeLocalBean) --> Ejb(deployment-id=pFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/pFacade!facades.ProdottoFacade) --> Ejb(deployment-id=pFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/pFacade) --> Ejb(deployment-id=pFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=oFacadeLocalBean) --> Ejb(deployment-id=oFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/oFacade!facades.OrdineFacade) --> Ejb(deployment-id=oFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/oFacade) --> Ejb(deployment-id=oFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=uFacadeLocalBean) --> Ejb(deployment-id=uFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/uFacade!facades.UtenteFacade) --> Ejb(deployment-id=uFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/uFacade) --> Ejb(deployment-id=uFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=couponFacadeLocalBean) --> Ejb(deployment-id=couponFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/couponFacade!facades.CouponFacade) --> Ejb(deployment-id=couponFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/paws-and-claws/couponFacade) --> Ejb(deployment-id=couponFacade)
+May 10, 2016 12:20:43 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:20:44 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:20:44 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:20:44 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:20:48 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:20:48 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 4581 ms.
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=fFacade, ejb-name=fFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=oFacade, ejb-name=oFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=couponFacade, ejb-name=couponFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=pFacade, ejb-name=pFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=aFacade, ejb-name=aFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=uFacade, ejb-name=uFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=fFacade, ejb-name=fFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=oFacade, ejb-name=oFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=couponFacade, ejb-name=couponFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=pFacade, ejb-name=pFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=aFacade, ejb-name=aFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=uFacade, ejb-name=uFacade, container=Default Stateless Container)
+May 10, 2016 12:20:48 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/paws-and-claws)
+May 10, 2016 12:20:51 PM org.omnifaces.ApplicationInitializer logOmniFacesVersion
+INFO: Using OmniFaces version 2.1
+May 10, 2016 12:20:51 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+May 10, 2016 12:20:52 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFO: Reading config /WEB-INF/faces-config.xml
+May 10, 2016 12:20:52 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/vagrant/applicazione/webapps/paws-and-claws/WEB-INF/lib/primefaces-5.2.jar!/META-INF/faces-config.xml
+May 10, 2016 12:20:52 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/vagrant/applicazione/webapps/paws-and-claws/WEB-INF/lib/omnifaces-2.1.jar!/META-INF/faces-config.xml
+May 10, 2016 12:20:53 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/vagrant/applicazione/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+May 10, 2016 12:20:53 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/vagrant/applicazione/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+May 10, 2016 12:20:53 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.2.9-20150520.131754-76' from path 'file:/home/vagrant/applicazione/lib/myfaces-api-2.2.9-20150520.131754-76.jar'
+May 10, 2016 12:20:53 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.2.9-20150520.132004-76' from path 'file:/home/vagrant/applicazione/lib/myfaces-impl-2.2.9-20150520.132004-76.jar'
+May 10, 2016 12:20:53 PM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFO: MyFaces CDI support enabled
+May 10, 2016 12:20:53 PM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFO: Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+May 10, 2016 12:20:54 PM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support enabled
+May 10, 2016 12:20:54 PM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+May 10, 2016 12:20:54 PM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+May 10, 2016 12:20:55 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces 5.2
+May 10, 2016 12:20:55 PM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+May 10, 2016 12:20:55 PM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFO: MyFaces Unified EL support enabled
+May 10, 2016 12:20:55 PM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFO: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+May 10, 2016 12:20:55 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/applicazione/webapps/paws-and-claws.war has finished in 25,310 ms
+May 10, 2016 12:20:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/docs
+May 10, 2016 12:20:55 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /docs
+May 10, 2016 12:20:55 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/docs
+May 10, 2016 12:20:55 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/docs" loaded.
+May 10, 2016 12:20:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/docs
+May 10, 2016 12:20:55 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:20:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:20:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:20:55 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:20:55 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:20:55 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 31 ms.
+May 10, 2016 12:20:55 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/docs)
+May 10, 2016 12:20:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/docs has finished in 657 ms
+May 10, 2016 12:20:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/host-manager
+May 10, 2016 12:20:56 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /host-manager
+May 10, 2016 12:20:56 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/host-manager
+May 10, 2016 12:20:56 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/host-manager" loaded.
+May 10, 2016 12:20:56 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/host-manager
+May 10, 2016 12:20:56 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:20:56 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:20:56 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:20:56 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:20:56 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:20:56 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 45 ms.
+May 10, 2016 12:20:56 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /home/vagrant/applicazione/webapps/host-manager/META-INF/context.xml
+May 10, 2016 12:20:56 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/host-manager)
+May 10, 2016 12:20:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/host-manager has finished in 887 ms
+May 10, 2016 12:20:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/manager
+May 10, 2016 12:20:56 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /manager
+May 10, 2016 12:20:57 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/manager
+May 10, 2016 12:20:57 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/manager" loaded.
+May 10, 2016 12:20:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/manager
+May 10, 2016 12:20:57 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:20:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:20:57 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:20:57 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:20:57 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:20:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 24 ms.
+May 10, 2016 12:20:57 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /home/vagrant/applicazione/webapps/manager/META-INF/context.xml
+May 10, 2016 12:20:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/manager)
+May 10, 2016 12:20:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/manager has finished in 738 ms
+May 10, 2016 12:20:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/ROOT
+May 10, 2016 12:20:57 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /
+May 10, 2016 12:20:57 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/ROOT
+May 10, 2016 12:20:57 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/ROOT" loaded.
+May 10, 2016 12:20:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/ROOT
+May 10, 2016 12:20:58 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:20:58 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:20:58 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:20:58 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:20:58 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:20:58 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 33 ms.
+May 10, 2016 12:20:58 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/ROOT)
+May 10, 2016 12:20:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/ROOT has finished in 577 ms
+May 10, 2016 12:20:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/applicazione/webapps/tomee
+May 10, 2016 12:20:58 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /tomee
+May 10, 2016 12:20:58 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/vagrant/applicazione/webapps/tomee
+May 10, 2016 12:20:58 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/vagrant/applicazione/webapps/tomee" loaded.
+May 10, 2016 12:20:58 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/vagrant/applicazione/webapps/tomee
+May 10, 2016 12:20:58 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efee8e7
+May 10, 2016 12:20:58 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+May 10, 2016 12:20:58 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+May 10, 2016 12:20:58 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+May 10, 2016 12:20:58 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+May 10, 2016 12:20:58 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 75 ms.
+May 10, 2016 12:20:58 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/vagrant/applicazione/webapps/tomee)
+May 10, 2016 12:20:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/applicazione/webapps/tomee has finished in 949 ms
+May 10, 2016 12:20:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 10, 2016 12:20:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 10, 2016 12:20:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 29347 ms
+May 10, 2016 12:21:04 PM null
+INFO: Starting OpenJPA 2.4.0-nonfinal-1598334
+May 10, 2016 12:21:05 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.PostgresDictionary" (PostgreSQL 9.3.12 ,PostgreSQL Native Driver PostgreSQL 9.2 JDBC4 (build 1004)).
+May 10, 2016 12:21:05 PM null
+INFO: Connected to PostgreSQL version 9.9 using JDBC driver PostgreSQL Native Driver version PostgreSQL 9.2 JDBC4 (build 1004). 
+May 10, 2016 12:21:05 PM null
+WARNING: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:05 PM null
+WARNING: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:05 PM null
+WARNING: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:05 PM null
+WARNING: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:05 PM null
+WARNING: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:05 PM null
+WARNING: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:05 PM null
+WARNING: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:05 PM null
+WARNING: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:06 PM null
+INFO: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:07 PM null
+WARNING: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:54 PM null
+WARNING: The class "model.Utente" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:54 PM null
+WARNING: The class "model.Coupon" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:54 PM null
+WARNING: The class "model.Indirizzo" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:54 PM null
+WARNING: The class "model.Prodotto" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:54 PM null
+WARNING: The class "model.Fornitore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:54 PM null
+WARNING: The class "model.Ordine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:54 PM null
+WARNING: The class "model.RigaOrdine" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:21:54 PM null
+WARNING: The class "model.Amministratore" listed in the openjpa.MetaDataFactory configuration property could not be loaded by LazyStopWebappClassLoader
+  context: /paws-and-claws
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5fa7e7ff
+; ignoring.
+May 10, 2016 12:29:26 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 10, 2016 12:29:26 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 10, 2016 12:29:26 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 10, 2016 12:29:26 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/vagrant/applicazione/webapps/paws-and-claws
+May 10, 2016 12:29:26 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/vagrant/applicazione/webapps/docs
+May 10, 2016 12:29:26 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/vagrant/applicazione/webapps/host-manager
+May 10, 2016 12:29:26 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/vagrant/applicazione/webapps/manager
+May 10, 2016 12:29:26 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/vagrant/applicazione/webapps/ROOT
+May 10, 2016 12:29:27 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/vagrant/applicazione/webapps/tomee
+May 10, 2016 12:29:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 10, 2016 12:29:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 10, 2016 12:29:27 PM org.apache.openejb.server.SimpleServiceManager stop
+INFO: Stopping server services
+May 10, 2016 12:29:27 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: openejb
+May 10, 2016 12:29:27 PM org.apache.openejb.assembler.classic.Assembler destroyResource
+INFO: Closing DataSource: PostgreSQL Database
+May 10, 2016 12:29:27 PM org.apache.openejb.assembler.classic.Assembler destroyResource
+INFO: Closing DataSource: PostgreSQL DatabaseNonJta
+May 10, 2016 12:29:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 10, 2016 12:29:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

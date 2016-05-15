@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [28/Apr/2015:21:58:54 +0200] "GET /siw-mvc-es1/index.jsp HTTP/1.1" 200 386
+0:0:0:0:0:0:0:1 - - [28/Apr/2015:21:58:57 +0200] "GET /siw-mvc-es1/controller/product.list;jsessionid=5D3D2E76B4A118EDDAAEA21018B2039A HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [28/Apr/2015:21:59:01 +0200] "GET /siw-mvc-es1/newProduct.jsp;jsessionid=5D3D2E76B4A118EDDAAEA21018B2039A HTTP/1.1" 200 536
+0:0:0:0:0:0:0:1 - - [28/Apr/2015:21:59:14 +0200] "GET /siw-mvc-es1/controller/product.create?name=nutella&code=19&price=34&description=kinder&sumbit=invia HTTP/1.1" 200 262
+0:0:0:0:0:0:0:1 - - [28/Apr/2015:21:59:19 +0200] "GET /siw-mvc-es1/controller/product.list;jsessionid=5D3D2E76B4A118EDDAAEA21018B2039A HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [28/Apr/2015:21:59:21 +0200] "GET /siw-mvc-es1/controller/product.get?id=1 HTTP/1.1" 200 278

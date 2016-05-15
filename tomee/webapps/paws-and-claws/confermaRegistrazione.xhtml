@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:body>
+	<ui:composition template="template/common/commonLayout.xhtml">
+
+		<ui:define name="content">
+			<div class="prima-row carrello">
+				<div class="utente-table">
+					<h2 class="titolo-carrello col-md-8 col-md-offset-4">Riepilogo</h2>
+					<ui:include src="utente.xhtml">
+						<ui:param name="utente"
+							value="${sessione.utente}" />
+							<ui:param name="mostraPassword"
+							value="1" />
+					</ui:include>
+
+					<h:form class="conferma-r-form">
+						<h:commandButton class="btn btn-success" value="Annulla"
+							action="#{utenteController.annullaRegistrazioneUtente}" />
+						<h:commandButton class="btn btn-success" value="Registra"
+							action="#{utenteController.confermaRegistrazioneUtente}" />
+					</h:form>
+				</div>
+			</div>
+		</ui:define>
+
+	</ui:composition>
+
+</h:body>
+
+</html>
